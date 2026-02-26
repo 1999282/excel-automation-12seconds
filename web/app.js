@@ -255,25 +255,23 @@ function processData() {
                 }
             }
 
-            // Format Dates to YYYY-MM-DD
+            // Format Dates to YYYY-MM-DD (Robust handling for EU/US formats)
             if (cols.date && cleanRow[cols.date]) {
                 let dStr = String(cleanRow[cols.date]).trim();
-                dStr = dStr.replace(/\./g, '/'); // 15.01.2024 -> 15/01/2024
-                let d = new Date(dStr);
-                if (!isNaN(d.getTime())) {
-                    cleanRow[cols.date] = d.toISOString().split('T')[0];
-                    if (dStr !== cleanRow[cols.date]) report.datesStandardized++;
+                let parsedDate = parseMessyDate(dStr);
+                if (parsedDate) {
+                    cleanRow[cols.date] = parsedDate;
+                    if (dStr !== parsedDate) report.datesStandardized++;
                 }
             }
 
-            // Clean Currencies/Numbers
+            // Clean Currencies/Numbers (Robust handling for EU/US formats e.g., 1.234,56 €)
             if (cols.revenue && cleanRow[cols.revenue]) {
                 let val = String(cleanRow[cols.revenue]);
-                val = val.replace(/[€$£,\s]/g, '');
-                let num = parseFloat(val);
+                let num = parseMessyNumber(val);
                 if (!isNaN(num)) {
                     cleanRow[cols.revenue] = num;
-                    if (val !== String(row[cols.revenue])) report.currenciesFixed++;
+                    if (String(num) !== val.trim()) report.currenciesFixed++;
                 } else {
                     cleanRow[cols.revenue] = 0;
                 }
@@ -814,4 +812,55 @@ function aggregate(data, groupCol, valCol) {
         acc[group] = (acc[group] || 0) + val;
         return acc;
     }, {});
+}
+
+// Utility: Parse messy international numbers (EU and US formats)
+function parseMessyNumber(str) {
+    if (!str) return NaN;
+    str = String(str).trim();
+    // Remove symbols and letters
+    str = str.replace(/[€$£a-zA-Z\s]/g, '');
+
+    let lastComma = str.lastIndexOf(',');
+    let lastDot = str.lastIndexOf('.');
+
+    if (lastComma > lastDot) {
+        // European format: 1.234,56
+        str = str.replace(/\./g, '');
+        str = str.replace(',', '.');
+    } else if (lastDot > lastComma && lastComma !== -1) {
+        // US format: 1,234.56
+        str = str.replace(/,/g, '');
+    } else if (lastComma !== -1 && lastDot === -1) {
+        // Only comma: 1234,56 -> assume European decimal
+        str = str.replace(/,/g, '.');
+    }
+    return parseFloat(str);
+}
+
+// Utility: Parse messy dates including European DD.MM.YYYY
+function parseMessyDate(str) {
+    if (!str) return null;
+    str = String(str).trim();
+
+    // Pattern match for DD.MM.YYYY, DD/MM/YYYY, DD-MM-YYYY
+    const euroMatch = str.match(/^(\d{1,2})[\.\/\-](\d{1,2})[\.\/\-](\d{4})$/);
+    if (euroMatch) {
+        let day = parseInt(euroMatch[1], 10);
+        let month = parseInt(euroMatch[2], 10);
+        let year = parseInt(euroMatch[3], 10);
+        // Swap if month > 12 (means it was actually MM/DD/YYYY)
+        if (month > 12 && day <= 12) {
+            let tmp = day; day = month; month = tmp;
+        }
+        if (month <= 12 && day <= 31) {
+            return `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+        }
+    }
+
+    // Try native Date fallback
+    let d = new Date(str);
+    if (!isNaN(d.getTime()) && d.getFullYear() > 1900) return d.toISOString().split('T')[0];
+
+    return null;
 }

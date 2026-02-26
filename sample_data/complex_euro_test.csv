@@ -1,0 +1,9 @@
+Order NO,Transaction Date,Client Name,Department,Qty,Total Sales,Location
+A-001,31.12.2023,Volkswagen AG,Hardware,10,"1.234,56 €",Berlin
+A-002,2024/01/01,Siemens,Software,5,"9.876,00",Munich
+A-003,Jan 2 2024,BOSCH GMBH,Services,2,"€ 4.321,50",Stuttgart
+A-004,15-01-2024,SAP SE,Software,1,"1000,99",Walldorf
+A-005,02.02.2024,Adidas,Apparel,20,"5.678,90 €",Herzogenaurach
+A-006,2024.03.15,Allianz SE,Insurance,-1,"-1.500,00 €",Munich
+A-007,04/04/2024,BMW Group,Hardware,3,"3,141.59",Munich
+A-008,12/31/2024,Deutsche Bank,Services,10,"10.000,00",Frankfurt
