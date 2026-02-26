@@ -8,6 +8,22 @@
     <meta name="description"
         content="Upload messy CSV data and get instant cleaned reports with charts. Free, open-source, runs entirely in your browser.">
 
+    <!-- Open Graph for LinkedIn/Social Sharing -->
+    <meta property="og:title" content="Excel Automation — 3 Hours → 12 Seconds">
+    <meta property="og:description"
+        content="Free open-source tool: Drop a messy CSV, get clean data + interactive charts + Excel report in seconds. No sign-up, no server, runs in your browser.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://1999282.github.io/excel-automation-12seconds/web/">
+    <meta property="og:image" content="https://1999282.github.io/excel-automation-12seconds/web/og-preview.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Excel Automation — 3 Hours → 12 Seconds">
+    <meta name="twitter:description"
+        content="Drop messy CSV → Get clean data + charts + Excel report. Free, open-source, 100% client-side.">
+
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
@@ -29,6 +45,9 @@
 <body>
     <!-- Noise overlay -->
     <div class="noise"></div>
+
+    <!-- Confetti container -->
+    <div id="confetti-container"></div>
 
     <!-- Hero Section -->
     <header class="hero" id="hero">
@@ -63,7 +82,7 @@
         </div>
         <div class="hero-stats">
             <div class="stat">
-                <span class="stat-number" id="stat-speed">0.9s</span>
+                <span class="stat-number">0.9s</span>
                 <span class="stat-label">Avg Processing</span>
             </div>
             <div class="stat">
@@ -77,12 +96,59 @@
         </div>
     </header>
 
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Six automated steps that replace hours of manual Excel work</p>
+            </div>
+            <div class="pipeline-grid">
+                <div class="pipeline-step">
+                    <div class="pipe-icon">📂</div>
+                    <h4>1. Load</h4>
+                    <p>Parse CSV/Excel with auto-encoding</p>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-step">
+                    <div class="pipe-icon">🔍</div>
+                    <h4>2. Detect</h4>
+                    <p>Auto-identify columns & types</p>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-step">
+                    <div class="pipe-icon">🧹</div>
+                    <h4>3. Clean</h4>
+                    <p>Duplicates, nulls, formats, casing</p>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-step">
+                    <div class="pipe-icon">📊</div>
+                    <h4>4. Analyze</h4>
+                    <p>Stats, margins, aggregations</p>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-step">
+                    <div class="pipe-icon">📈</div>
+                    <h4>5. Visualize</h4>
+                    <p>5 interactive Chart.js charts</p>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-step">
+                    <div class="pipe-icon">📥</div>
+                    <h4>6. Export</h4>
+                    <p>Multi-sheet Excel report</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Upload Section -->
     <section class="upload-section" id="upload-section">
         <div class="container">
             <div class="section-header">
                 <h2>Upload Your Data</h2>
-                <p>Drag & drop a CSV file or use our sample dataset to see the magic</p>
+                <p>Drag & drop a CSV or Excel file, or use our sample dataset to see the magic</p>
             </div>
 
             <div class="upload-zone" id="upload-zone">
@@ -94,8 +160,8 @@
                         <line x1="12" y1="3" x2="12" y2="15" />
                     </svg>
                 </div>
-                <p class="upload-text">Drop your CSV file here</p>
-                <p class="upload-subtext">or click to browse • Max 10MB</p>
+                <p class="upload-text">Drop your CSV or Excel file here</p>
+                <p class="upload-subtext">or click to browse • CSV, XLSX, XLS • Max 10MB</p>
                 <input type="file" id="file-input" accept=".csv,.xlsx,.xls" hidden>
             </div>
 
@@ -105,7 +171,7 @@
                         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                         <polyline points="14 2 14 8 20 8" />
                     </svg>
-                    Try Sample Data
+                    Try Sample Data (24 rows of messy German sales data)
                 </button>
             </div>
         </div>
@@ -116,7 +182,8 @@
         <div class="container">
             <div class="processing-card">
                 <div class="processing-spinner"></div>
-                <h3 id="processing-step">Processing...</h3>
+                <h3 id="processing-title">Processing...</h3>
+                <p class="file-info" id="file-info"></p>
                 <div class="processing-steps">
                     <div class="step" id="step-1"><span class="step-icon">⏳</span> Loading data</div>
                     <div class="step" id="step-2"><span class="step-icon">⏳</span> Removing duplicates</div>
@@ -125,6 +192,18 @@
                     <div class="step" id="step-5"><span class="step-icon">⏳</span> Building charts</div>
                     <div class="step" id="step-6"><span class="step-icon">⏳</span> Preparing report</div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Error Section -->
+    <section class="error-section" id="error-section" style="display:none;">
+        <div class="container">
+            <div class="error-card">
+                <div class="error-icon">⚠️</div>
+                <h3 id="error-title">Something went wrong</h3>
+                <p id="error-message"></p>
+                <button class="btn btn-primary" onclick="resetApp()">Try Again</button>
             </div>
         </div>
     </section>
@@ -141,6 +220,22 @@
                 </div>
             </div>
 
+            <!-- Data Quality Score -->
+            <div class="quality-score-card" id="quality-card">
+                <div class="quality-ring">
+                    <svg viewBox="0 0 120 120">
+                        <circle class="quality-bg" cx="60" cy="60" r="52" />
+                        <circle class="quality-fill" id="quality-ring-fill" cx="60" cy="60" r="52" />
+                    </svg>
+                    <span class="quality-value" id="quality-value">0%</span>
+                </div>
+                <div class="quality-info">
+                    <h3>Data Quality Score</h3>
+                    <p id="quality-detail">Measures how much cleaner your data is after processing</p>
+                    <div class="quality-badges" id="quality-badges"></div>
+                </div>
+            </div>
+
             <!-- Summary Cards -->
             <div class="summary-grid" id="summary-grid">
                 <!-- Filled by JS -->
@@ -154,8 +249,17 @@
                 </div>
             </div>
 
+            <!-- Before vs After -->
+            <div class="diff-card" id="diff-card">
+                <h3>🔬 Before vs After — What Changed</h3>
+                <p class="diff-subtitle">Side-by-side comparison showing exactly what the cleaning pipeline fixed</p>
+                <div class="diff-container" id="diff-container">
+                    <!-- Filled by JS -->
+                </div>
+            </div>
+
             <!-- Charts -->
-            <div class="charts-grid">
+            <div class="charts-grid" id="charts-grid">
                 <div class="chart-card">
                     <h3>Revenue by Region</h3>
                     <canvas id="chart-region"></canvas>

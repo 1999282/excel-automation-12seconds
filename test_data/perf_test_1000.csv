@@ -1,0 +1,1051 @@
+order_id,order_date,customer_name,region,product,category,quantity,unit_price,revenue,cost,ship_date,status
+1730,2025-03-13,Koch Solutions,Hessen,Gadget X,Electronics,118,93.04,10978.72,7634.75,2025-03-22,Delivered
+1179,18-01-2025,Schäfer Elektro,Baden-Württemberg,Cable Kit,Electronics,121,133.52,16155.92,8729.85,2025-01-20,Shipped
+1886,27.03.2025,Keller Handels,Baden-Württemberg,Widget Pro,Components,123,71.61,8808.03,5551.63,2025-03-29,Cancelled
+1653,2025-05-08,Braun Logistik,Hessen,Widget Pro,Accessories,44,76.01,3344.44,2170.6,2025-05-17,Shipped
+1084,2025-06-17,Wagner Ltd,Hamburg,Control Board,COMPONENTS,71,140.06,9944.26,5230.52,2025-06-25,Pending
+1242,03-28-2025,Müller GmbH,Hessen,Sensor Unit,Electronics,64,38.69,2476.16,1637.78,2025-04-04,Delivered
+1512,2025-03-22,Weber Industries,Saxony,Gadget X,Electronics,63,12.12,763.56,463.61,2025-03-28,Delivered
+1928,28/05/2025,Bauer Tech,Hessen,Cable Kit,Components,106,94.75,10043.5,3933.03,2025-06-05,Shipped
+1593,2025-06-25,Schäfer Elektro,Baden-Württemberg,Sensor Unit,Components,53,122.2,6476.6,2601.7,2025-07-02,Returned
+1371,2025-04-29,Wagner Ltd,Hessen,Widget Pro,Electronics,69,11.87,819.03,457.02,,Delivered
+1458,09-05-2025,  RICHTER SYSTEMS  ,Bavaria,Power Module,Components,80,119.36,9548.8,5998.3,2025-05-11,Pending
+1661,07.04.2025,Schneider Fabrik,Saxony,Widget Pro,Accessories,25,106.71,2667.75,1434.25,2025-04-14,Shipped
+1684,01-27-2025,  WEBER INDUSTRIES  ,Hamburg,Cable Kit,COMPONENTS,118,20.97,2474.46,1499.84,2025-02-03,Returned
+1416,28/06/2025,Koch Solutions,Baden-Württemberg,Power Module,Components,199,69.51,13832.49,6356.84,2025-07-08,Shipped
+1522,2025-01-03,Schneider Fabrik,Saxony,Cable Kit,Industrial,26,106.42,2766.92,1596.98,2025-01-04,Delivered
+1349,May 05 2025,Koch Solutions,Saxony,Gadget X,Accessories,121,8.69,1051.49,679.56,2025-05-08,Cancelled
+1110,05-02-2025,Schäfer Elektro,Berlin,Power Module,Electronics,143,133.63,19109.09,8374.34,2025-05-12,Delivered
+1575,2025-03-26,Wagner Ltd,Saxony,Gadget X,Industrial,187,55.84,10442.08,4289.51,2025-03-28,Cancelled
+1374,16.06.2025,Keller Handels,Hamburg,Cable Kit,Electronics,135,54.2,7317.0,3827.3,2025-06-20,Delivered
+1611,01-12-2025,Bauer Tech,Berlin,Sensor Unit,Components,138,85.46,11793.48,3893.98,2025-01-16,Delivered
+1880,2025-02-19,Koch Solutions,Bavaria,Control Board,Industrial,194,22.13,4293.22,1464.65,2025-02-27,Pending
+1595,03-15-2025,Wagner Ltd,Hessen,Widget Pro,Accessories,108,149.38,16133.04,10273.51,2025-03-22,Pending
+1942,26.02.2025,Bauer Tech,Hamburg,Widget Pro,Accessories,195,69.45,13542.75,4668.32,2025-03-06,Returned
+1601,Jan 11 2025,Wolf Components,Berlin,Widget Pro,Accessories,68,100.74,6850.32,3535.89,2025-01-21,Cancelled
+1963,2025-03-13,Bauer Tech,Hamburg,Widget Pro,Industrial,178,125.83,22397.74,9404.39,2025-03-23,Shipped
+1177,06-01-2025,  MEYER TRANSPORT  ,Berlin,Widget Pro,Components,94,110.87,10421.78,3621.92,2025-06-03,Cancelled
+1958,01/02/2025,Keller Handels,Hamburg,Sensor Unit,Components,71,23.59,1674.89,662.37,,Cancelled
+1525,2025/05/10,Schneider Fabrik,Baden-Württemberg,Gadget X,Electronics,39,62.14,2423.46,1509.62,,Pending
+1970,19.04.2025,Fischer Corp,NRW,Widget Pro,Components,58,74.14,4300.12,1309.65,2025-04-20,Shipped
+1266,02-10-2025,Fischer Corp,Berlin,Gadget X,Electronics,45,105.08,4728.6,1778.67,2025-02-14,Delivered
+1626,Apr 10 2025,Keller Handels,Berlin,Control Board,Accessories,98,118.4,11603.2,4470.06,2025-04-17,Shipped
+1120,10-01-2025,Weber Industries,Bavaria,Power Module,Electronics,108,101.88,11003.04,7536.73,2025-01-16,Pending
+1115,12.04.2025,Schäfer Elektro,Hamburg,Cable Kit,Electronics,172,87.05,14972.6,9401.71,2025-04-17,Returned
+1262,23/06/2025,Müller GmbH,Saxony,Power Module,Industrial,42,142.98,6005.16,2622.28,2025-06-24,Delivered
+1234,12.01.2025,Bauer Tech,Hessen,Widget Pro,Accessories,91,110.38,10044.58,6335.23,2025-01-18,Pending
+1307,17/04/2025,Meyer Transport,Hamburg,Cable Kit,Industrial,21,9.91,208.11,121.01,2025-04-20,Delivered
+1850,2025/02/28,Weber Industries,Hessen,Widget Pro,Components,-72,149.36,-10753.92,0.0,,Returned
+1080,Jan 12 2025,Müller GmbH,Baden-Württemberg,Widget Pro,Accessories,77,43.65,3361.05,2170.17,2025-01-14,Pending
+1690,May 19 2025,Richter Systems,Saxony,Sensor Unit,Components,52,145.83,7583.16,3516.78,2025-05-27,Pending
+1364,2025-02-11,Fischer Corp,Bavaria,Control Board,Accessories,95,53.6,5092.0,1911.07,2025-02-17,Returned
+1772,2025/06/07,Schneider Fabrik,NRW,Cable Kit,Components,152,133.2,20246.4,9294.58,2025-06-08,Cancelled
+1461,Feb 23 2025,Wagner Ltd,Bavaria,Sensor Unit,Electronics,64,63.59,4069.76,2804.73,2025-03-02,Shipped
+1892,2025-03-28,Müller GmbH,Hessen,Cable Kit,Industrial,155,96.22,14914.1,8919.03,2025-04-06,Shipped
+1054,2025/04/15,Richter Systems,Hamburg,Cable Kit,Electronics,187,94.86,17738.82,11438.67,2025-04-21,Pending
+1705,24/03/2025,Richter Systems,Baden-Württemberg,Power Module,Electronics,199,103.1,20516.9,13095.41,2025-03-28,Delivered
+1453,13.05.2025,Koch Solutions,Berlin,Sensor Unit,ACCESSORIES,47,44.23,2078.81,1420.68,2025-05-19,Returned
+1263,25-06-2025,Schäfer Elektro,hamburg,Control Board,Industrial,171,129.96,22223.16,12595.56,2025-07-05,Shipped
+1797,Apr 07 2025,Meyer Transport,Saxony,Power Module,Accessories,199,23.0,4577.0,1860.59,2025-04-17,Returned
+1849,13.06.2025,Hoffmann KG,Saxony,Widget Pro,Electronics,185,122.93,22742.05,10340.37,2025-06-18,Returned
+1207,2025/02/01,Wagner Ltd,NRW,Cable Kit,Accessories,54,21.56,1164.24,720.71,2025-02-10,Returned
+1300,25.03.2025,Richter Systems,Baden-Württemberg,Power Module,Electronics,45,15.73,707.85,405.38,2025-03-31,Returned
+1468,18-02-2025,Fischer Corp,BERLIN,Sensor Unit,Components,-82,71.3,-5846.6,0.0,2025-02-28,Delivered
+1408,06-20-2025,Bauer Tech,baden-württemberg,Cable Kit,Electronics,70,18.77,1313.9,517.1,2025-06-22,Pending
+1752,04-06-2025,Fischer Corp,Baden-Württemberg,Sensor Unit,Electronics,194,41.03,7959.82,3884.21,2025-06-08,Returned
+1996,2025/01/26,Müller GmbH,Hamburg,Sensor Unit,ELECTRONICS,174,36.37,6328.38,2136.44,2025-02-01,Delivered
+1681,03-03-2025,Wagner Ltd,Hamburg,Cable Kit,Accessories,137,82.44,11294.28,6650.32,2025-03-09,Pending
+1737,Jun 16 2025,Schäfer Elektro,Baden-Württemberg,Power Module,Electronics,118,145.06,17117.08,6825.31,2025-06-17,Delivered
+1930,14/05/2025,Richter Systems,hamburg,Control Board,Electronics,-166,48.88,-8114.08,0.0,2025-05-23,Delivered
+1211,2025-05-15,Braun Logistik,NRW,Gadget X,Accessories,112,69.82,7819.84,4936.46,,Pending
+1405,Feb 18 2025,Keller Handels,Hessen,Control Board,COMPONENTS,195,107.83,21026.85,7922.24,2025-02-22,Cancelled
+1404,21-02-2025,,Hessen,Gadget X,Components,95,77.53,7365.35,2392.35,2025-02-23,Cancelled
+1731,2025-01-22,Hoffmann KG,NRW,Cable Kit,Industrial,47,69.18,3251.46,1111.14,2025-01-29,Cancelled
+1373,01-04-2025,Schneider Fabrik,Berlin,Widget Pro,Industrial,186,71.38,13276.68,7871.68,,Delivered
+1701,2025-02-01,Meyer Transport,Saxony,Cable Kit,Electronics,148,147.65,21852.2,11146.72,2025-02-06,Pending
+1767,05-28-2025,Schäfer Elektro,Baden-Württemberg,Sensor Unit,Industrial,149,52.46,7816.54,4122.28,2025-05-30,Returned
+1096,23.03.2025,Müller GmbH,Berlin,Gadget X,Industrial,82,84.64,6940.48,2549.58,,Pending
+1449,02/03/2025,Müller GmbH,Hessen,Widget Pro,Accessories,145,47.98,6957.1,2483.57,2025-03-05,Pending
+1051,01/05/2025,Koch Solutions,Hessen,Sensor Unit,ACCESSORIES,193,129.54,25001.22,15930.82,,Pending
+1199,Jan 17 2025,Wolf Components,Hamburg,Widget Pro,COMPONENTS,167,77.94,13015.98,4851.17,2025-01-25,Pending
+1903,17.02.2025,Wolf Components,Berlin,Gadget X,Electronics,116,59.84,6941.44,2672.24,2025-02-20,Delivered
+1185,16-02-2025,Meyer Transport,Hamburg,Sensor Unit,Accessories,151,28.64,4324.64,2164.91,2025-02-26,Returned
+1534,02-08-2025,Wolf Components,Hessen,Control Board,Industrial,49,108.06,5294.94,3043.9,2025-02-17,Pending
+1810,2025-01-05,Hoffmann KG,Hamburg,Cable Kit,Accessories,41,81.59,3345.19,1642.62,,Delivered
+1061,23-03-2025,Keller Handels,Hessen,Cable Kit,ACCESSORIES,57,102.8,5859.6,3979.7,2025-04-02,Cancelled
+1992,30.03.2025,Richter Systems,berlin,Cable Kit,Accessories,50,57.76,2888.0,982.99,,Returned
+1084,2025-06-17,Wagner Ltd,Hamburg,Control Board,COMPONENTS,71,140.06,9944.26,5230.52,2025-06-25,Pending
+1327,07/02/2025,Braun Logistik,NRW,Widget Pro,Components,106,62.38,6612.28,2011.36,,Delivered
+1116,03-04-2025,Wagner Ltd,Baden-Württemberg,Power Module,Components,136,8.95,1217.2,509.0,2025-04-09,Returned
+1387,12-03-2025,Bauer Tech,Bavaria,Sensor Unit,INDUSTRIAL,-99,103.72,-10268.28,0.0,2025-03-20,Pending
+1159,2025-03-24,Müller GmbH,Baden-Württemberg,Sensor Unit,Accessories,171,92.69,15849.99,10914.1,2025-03-25,Returned
+1447,30/04/2025,Müller GmbH,NRW,Widget Pro,Industrial,121,74.76,9045.96,3343.56,2025-05-10,Cancelled
+1243,05-04-2025,Wagner Ltd,Bavaria,Power Module,Components,-148,52.23,-7730.04,0.0,,Returned
+1888,30-06-2025,Müller GmbH,Hamburg,Cable Kit,Accessories,176,30.62,5389.12,2589.22,2025-07-02,Returned
+1549,03-14-2025,Weber Industries,Bavaria,Widget Pro,Industrial,68,145.15,9870.2,6552.42,2025-03-24,Delivered
+1165,Jun 30 2025,Schneider Fabrik,Hessen,Power Module,Accessories,162,100.6,16297.2,9984.61,2025-07-05,Returned
+1004,2025-04-19,Schäfer Elektro,NRW,Gadget X,Electronics,26,131.26,3412.76,2365.43,2025-04-23,Shipped
+1459,Jun 05 2025,Fischer Corp,Baden-Württemberg,Control Board,Electronics,99,133.91,13257.09,6622.88,2025-06-13,Delivered
+1138,23/05/2025,Meyer Transport,Berlin,Sensor Unit,Components,16,64.4,1030.4,412.54,2025-06-02,Cancelled
+1934,Jun 03 2025,  WOLF COMPONENTS  ,Baden-Württemberg,Control Board,Components,115,25.77,2963.55,1678.41,2025-06-08,Cancelled
+1662,2025/04/08,Meyer Transport,Hessen,Power Module,Electronics,174,75.28,13098.72,6928.76,,Shipped
+1819,02.01.2025,Braun Logistik,Hessen,Sensor Unit,Electronics,8,24.77,198.16,60.7,2025-01-11,Cancelled
+1884,28-01-2025,Weber Industries,Hamburg,Sensor Unit,ACCESSORIES,9,31.41,282.69,129.0,2025-02-02,Returned
+1477,11.05.2025,Schmidt AG,bavaria,Gadget X,Accessories,189,118.88,22468.32,12285.55,2025-05-18,Cancelled
+1640,07-01-2025,Richter Systems,Hessen,Control Board,Components,191,142.81,27276.71,9660.76,2025-01-08,Returned
+1991,Mar 04 2025,Schneider Fabrik,Berlin,Cable Kit,Components,58,96.41,5591.78,2591.75,2025-03-09,Returned
+1268,05.02.2025,Koch Solutions,saxony,Sensor Unit,Industrial,181,46.63,8440.03,4667.47,2025-02-13,Pending
+1669,14.01.2025,Wagner Ltd,Hessen,Cable Kit,Accessories,174,70.81,12320.94,8460.15,2025-01-24,Delivered
+1228,Feb 07 2025,Weber Industries,NRW,Control Board,INDUSTRIAL,103,5.15,530.45,200.43,2025-02-11,Shipped
+1823,06-21-2025,Meyer Transport,Saxony,Control Board,Accessories,17,140.5,2388.5,1650.02,2025-06-25,Shipped
+1252,02/03/2025,Richter Systems,Hamburg,Cable Kit,Accessories,150,139.44,20916.0,10537.01,2025-03-10,Delivered
+1577,08-03-2025,Wagner Ltd,Baden-Württemberg,Gadget X,INDUSTRIAL,158,84.55,13358.9,9014.44,2025-03-17,Returned
+1330,2025-05-15,Keller Handels,NRW,Widget Pro,Components,90,142.91,12861.9,4684.42,2025-05-21,Cancelled
+1006,18.06.2025,Wolf Components,Hessen,Gadget X,Electronics,128,111.15,14227.2,5382.03,2025-06-27,Returned
+1470,25-05-2025,Richter Systems,Hamburg,Sensor Unit,Accessories,32,142.5,4560.0,2193.46,2025-05-31,Delivered
+1564,29.05.2025,Meyer Transport,Berlin,Widget Pro,Industrial,28,41.14,1151.92,761.16,2025-06-04,Returned
+1710,2025-05-06,Wagner Ltd,Bavaria,Widget Pro,Industrial,67,69.88,4681.96,3029.2,2025-05-11,Shipped
+1013,25-06-2025,Koch Solutions,Hamburg,Gadget X,Components,88,134.82,11864.16,7948.9,2025-06-27,Shipped
+1035,2025-02-02,Koch Solutions,Hamburg,Power Module,Industrial,165,136.85,22580.25,14849.56,2025-02-06,Cancelled
+1441,2025-06-20,Richter Systems,Berlin,Control Board,Components,57,35.35,2014.95,1169.59,2025-06-28,Shipped
+1627,2025/03/08,Fischer Corp,hamburg,Control Board,Electronics,166,138.51,22992.66,9356.75,2025-03-16,Delivered
+1420,02/02/2025,Wolf Components,Bavaria,Power Module,INDUSTRIAL,28,96.85,2711.8,1760.38,2025-02-05,Returned
+1911,2025/05/12,Bauer Tech,Bavaria,Widget Pro,Electronics,144,59.88,8622.72,3403.94,2025-05-19,Cancelled
+1492,2025/02/09,Keller Handels,NRW,Control Board,Industrial,136,111.58,15174.88,6480.96,2025-02-15,Pending
+1145,2025-04-26,Fischer Corp,BADEN-WÜRTTEMBERG,Sensor Unit,Components,191,93.0,17763.0,10015.06,2025-04-29,Returned
+1289,15-05-2025,Weber Industries,Saxony,Cable Kit,Components,67,49.26,3300.42,1959.81,2025-05-25,Shipped
+1106,2025/03/16,Hoffmann KG,Hessen,Widget Pro,Components,38,72.04,2737.52,848.49,2025-03-21,Delivered
+1192,05-05-2025,Schneider Fabrik,Hessen,Sensor Unit,Components,155,16.08,2492.4,1341.54,2025-05-14,Pending
+1490,28-02-2025,  HOFFMANN KG  ,Hessen,Cable Kit,Industrial,103,125.84,12961.52,8957.32,2025-03-10,Delivered
+1679,05/02/2025,Schneider Fabrik,Bavaria,Power Module,Components,9,133.04,1197.36,513.23,2025-02-10,Pending
+1688,15-01-2025,Schneider Fabrik,Berlin,Control Board,Accessories,33,7.0,231.0,137.38,2025-01-18,Pending
+1984,17.05.2025,Wagner Ltd,Baden-Württemberg,Cable Kit,Electronics,78,69.12,5391.36,2841.76,2025-05-18,Pending
+1269,01/01/2025,Braun Logistik,berlin,Sensor Unit,Accessories,105,146.63,15396.15,5985.65,2025-01-08,Shipped
+1765,06-15-2025,Meyer Transport,nrw,Power Module,Accessories,163,104.76,17075.88,7721.36,2025-06-20,Cancelled
+1132,2025/01/27,Schneider Fabrik,Hamburg,Sensor Unit,Accessories,106,132.26,14019.56,7645.73,2025-01-28,Pending
+1412,10-04-2025,Wagner Ltd,Bavaria,Widget Pro,Components,160,24.25,3880.0,1892.38,,Pending
+1469,13.05.2025,Hoffmann KG,Berlin,Power Module,Industrial,33,58.77,1939.41,1017.44,2025-05-14,Cancelled
+1238,Jan 12 2025,Koch Solutions,Hamburg,Power Module,Components,180,13.83,2489.4,882.24,2025-01-19,Shipped
+1915,01/03/2025,Hoffmann KG,Berlin,Power Module,Industrial,54,16.13,871.02,407.68,2025-03-10,Cancelled
+1972,Jun 16 2025,Meyer Transport,Bavaria,Control Board,Industrial,9,148.53,1336.77,507.18,2025-06-20,Delivered
+1507,2025/02/12,Wolf Components,Hessen,Control Board,Electronics,133,73.83,9819.39,3755.09,2025-02-15,Delivered
+1979,24.06.2025,Weber Industries,Saxony,Widget Pro,Electronics,60,52.46,3147.6,1955.18,2025-07-02,Returned
+1944,22.06.2025,Hoffmann KG,Berlin,Sensor Unit,Accessories,38,7.69,292.22,191.76,2025-07-01,Shipped
+1139,03-19-2025,Keller Handels,Saxony,Sensor Unit,COMPONENTS,47,139.32,6548.04,3233.05,2025-03-26,Shipped
+1344,Mar 24 2025,Meyer Transport,Saxony,Control Board,Accessories,166,10.55,1751.3,627.76,2025-03-25,Shipped
+1231,04-05-2025,Koch Solutions,Bavaria,Cable Kit,Electronics,94,24.71,2322.74,796.51,2025-05-06,Pending
+1321,01-17-2025,Braun Logistik,Hamburg,Sensor Unit,Electronics,43,79.97,3438.71,1199.71,2025-01-18,Cancelled
+1204,16/03/2025,Meyer Transport,Berlin,Widget Pro,Accessories,97,6.21,602.37,412.21,2025-03-22,Delivered
+1565,2025/01/02,Richter Systems,Baden-Württemberg,Gadget X,Components,127,134.22,17045.94,6929.3,2025-01-07,Returned
+1798,12/04/2025,Wagner Ltd,Baden-Württemberg,Power Module,Components,78,145.78,11370.84,5827.18,2025-04-16,Returned
+1590,2025/03/09,Schäfer Elektro,Hamburg,Gadget X,Industrial,80,71.45,5716.0,2282.75,,Delivered
+1000,2025/06/13,,Bavaria,Power Module,Components,107,6.08,650.56,451.69,2025-06-14,Pending
+1167,2025/02/21,Wolf Components,Saxony,Gadget X,COMPONENTS,139,8.19,1138.41,451.89,2025-02-22,Cancelled
+1442,2025-05-17,Müller GmbH,NRW,Control Board,Components,138,140.78,19427.64,9182.71,2025-05-23,Shipped
+1835,2025-06-30,Fischer Corp,HESSEN,Widget Pro,Industrial,75,140.87,10565.25,3535.72,2025-07-07,Delivered
+1463,03-22-2025,Keller Handels,Baden-Württemberg,Control Board,Components,152,42.77,6501.04,4537.21,2025-03-29,Returned
+1579,May 06 2025,  BRAUN LOGISTIK  ,Hamburg,Sensor Unit,Components,48,80.37,3857.76,1571.86,2025-05-08,Returned
+1545,2025-03-10,Wolf Components,berlin,Widget Pro,Electronics,154,96.88,14919.52,9817.87,2025-03-15,Returned
+1246,2025/03/19,Wolf Components,Bavaria,Control Board,Accessories,96,105.66,10143.36,3068.95,2025-03-29,Shipped
+1315,04-02-2025,Fischer Corp,Saxony,Gadget X,Components,180,124.88,22478.4,13416.46,2025-04-09,Cancelled
+1156,2025/03/23,Schmidt AG,saxony,Power Module,ACCESSORIES,64,132.41,8474.24,5098.96,2025-03-25,Returned
+1388,2025/02/04,Schäfer Elektro,HESSEN,Power Module,Industrial,150,25.77,3865.5,1974.21,2025-02-13,Returned
+1181,04-02-2025,Schäfer Elektro,NRW,Cable Kit,Electronics,97,23.77,2305.69,776.76,2025-04-09,Delivered
+1017,2025/04/08,Wolf Components,Hessen,Cable Kit,Electronics,46,14.72,677.12,302.63,2025-04-09,Returned
+1792,03/06/2025,Richter Systems,Hessen,Cable Kit,Industrial,23,6.77,155.71,58.92,2025-06-04,Cancelled
+1012,08.03.2025,Wolf Components,Berlin,Control Board,Industrial,13,58.6,761.8,481.16,2025-03-13,Returned
+1003,2025-03-17,Bauer Tech,Bavaria,Sensor Unit,Industrial,97,136.4,13230.8,7273.22,2025-03-20,Pending
+1337,2025-05-10,Bauer Tech,Berlin,Control Board,Industrial,143,148.73,21268.39,7671.57,2025-05-19,Cancelled
+1401,2025-02-07,Müller GmbH,Saxony,Cable Kit,Electronics,119,136.4,16231.6,5474.6,2025-02-08,Returned
+1751,2025/03/05,Schäfer Elektro,Hessen,Control Board,Components,147,99.66,14650.02,8951.49,2025-03-14,Pending
+1485,03-20-2025,Fischer Corp,Bavaria,Power Module,Accessories,49,42.27,2071.23,1128.18,2025-03-28,Pending
+1664,19/05/2025,Schäfer Elektro,Saxony,Widget Pro,Industrial,72,32.72,2355.84,1431.98,2025-05-24,Cancelled
+1783,21/02/2025,Weber Industries,Baden-Württemberg,Cable Kit,Accessories,39,17.92,698.88,217.66,2025-02-26,Pending
+1806,2025/03/08,Bauer Tech,Bavaria,Gadget X,Electronics,140,58.18,8145.2,3394.38,2025-03-15,Cancelled
+1838,03-13-2025,Schmidt AG,Saxony,Control Board,Electronics,38,115.6,4392.8,2328.75,2025-03-21,Returned
+1042,06-27-2025,Keller Handels,NRW,Gadget X,Industrial,127,25.41,3227.07,989.09,2025-06-29,Pending
+1554,11/02/2025,Koch Solutions,Bavaria,Power Module,Accessories,151,111.07,16771.57,10871.67,,Pending
+1883,20/02/2025,Braun Logistik,NRW,Widget Pro,Components,67,43.49,2913.83,1979.99,2025-02-21,Delivered
+1533,15/04/2025,Richter Systems,Bavaria,Sensor Unit,Industrial,12,44.83,537.96,277.13,2025-04-16,Delivered
+1385,05-06-2025,Weber Industries,Hessen,Widget Pro,Components,140,118.51,16591.4,7794.44,2025-06-07,Pending
+1680,2025/04/02,Schäfer Elektro,Berlin,Cable Kit,Electronics,12,139.65,1675.8,560.89,2025-04-11,Delivered
+1868,01-10-2025,Müller GmbH,Hamburg,Power Module,Components,79,93.27,7368.33,3407.21,2025-01-13,Returned
+1304,Mar 05 2025,Wolf Components,Hamburg,Power Module,INDUSTRIAL,124,146.19,18127.56,11113.91,2025-03-06,Pending
+1041,11-03-2025,Bauer Tech,NRW,Gadget X,Industrial,18,90.49,1628.82,1021.62,2025-03-12,Delivered
+1879,2025-04-29,Keller Handels,NRW,Gadget X,Accessories,36,81.92,2949.12,1936.77,2025-05-09,Shipped
+1785,10-05-2025,Weber Industries,Saxony,Widget Pro,Components,22,118.6,2609.2,922.41,2025-05-15,Pending
+1219,2025-01-02,Koch Solutions,Berlin,Widget Pro,Electronics,184,100.87,18560.08,12195.72,2025-01-03,Shipped
+1001,2025-06-01,Weber Industries,NRW,Control Board,Accessories,113,12.22,1380.86,766.61,,Pending
+1867,04-11-2025,Meyer Transport,Saxony,Gadget X,INDUSTRIAL,181,51.77,9370.37,6466.96,2025-04-19,Pending
+1208,2025-06-30,Koch Solutions,Hessen,Power Module,Accessories,193,118.54,22878.22,8931.97,2025-07-08,Delivered
+1037,2025-02-17,Schneider Fabrik,Saxony,Gadget X,Components,34,29.67,1008.78,394.9,,Delivered
+1763,28/03/2025,,Berlin,Widget Pro,Industrial,142,106.81,15167.02,6526.03,2025-04-07,Cancelled
+1840,2025-06-21,Bauer Tech,NRW,Widget Pro,Components,163,69.81,11379.03,6759.38,2025-06-27,Cancelled
+1239,23.03.2025,Weber Industries,Berlin,Cable Kit,Components,6,25.95,155.7,53.18,2025-04-01,Returned
+1353,Apr 17 2025,Schneider Fabrik,Berlin,Control Board,Components,133,25.34,3370.22,1956.99,2025-04-20,Returned
+1067,2025-01-16,Hoffmann KG,Bavaria,Sensor Unit,Electronics,148,143.68,21264.64,8638.2,2025-01-17,Pending
+1107,14.02.2025,Müller GmbH,Bavaria,Sensor Unit,Industrial,153,78.68,12038.04,8243.4,2025-02-23,Returned
+1771,Apr 17 2025,Richter Systems,Hamburg,Control Board,Electronics,64,10.41,666.24,213.11,2025-04-27,Pending
+1202,2025/06/08,Fischer Corp,Hessen,Widget Pro,Electronics,31,75.28,2333.68,1310.25,2025-06-09,Cancelled
+1257,2025-04-02,  BRAUN LOGISTIK  ,Bavaria,Widget Pro,Components,137,48.67,6667.79,4003.92,2025-04-03,Delivered
+1691,2025/01/02,Keller Handels,Bavaria,Power Module,Accessories,158,62.58,9887.64,3719.06,2025-01-04,Pending
+1498,Apr 17 2025,Schneider Fabrik,NRW,Sensor Unit,Accessories,151,148.17,22373.67,15345.7,2025-04-21,Delivered
+1615,28.04.2025,Wolf Components,Baden-Württemberg,Gadget X,Components,117,20.04,2344.68,1236.97,2025-04-29,Returned
+1874,19.02.2025,Meyer Transport,Berlin,Sensor Unit,Components,184,5.09,936.56,424.99,2025-02-28,Pending
+1008,02-17-2025,Meyer Transport,Hessen,Gadget X,Industrial,6,137.47,824.82,286.79,2025-02-25,Shipped
+1711,12-05-2025,Meyer Transport,Bavaria,Gadget X,Accessories,21,61.6,1293.6,743.53,2025-05-14,Pending
+1591,25/04/2025,  MEYER TRANSPORT  ,Saxony,Gadget X,Accessories,175,12.24,2142.0,1118.15,,Shipped
+1434,2025/03/04,Meyer Transport,Hessen,Gadget X,Industrial,122,78.24,9545.28,4283.62,2025-03-06,Returned
+1708,04-30-2025,Schneider Fabrik,Hessen,Sensor Unit,Electronics,8,116.64,933.12,570.63,,Pending
+1028,Jun 16 2025,Schäfer Elektro,Hessen,Power Module,Accessories,54,30.88,1667.52,1038.83,2025-06-23,Delivered
+1172,07.04.2025,Richter Systems,Bavaria,Power Module,Electronics,88,124.97,10997.36,6021.98,2025-04-13,Delivered
+1547,02-05-2025,Wagner Ltd,Hamburg,Sensor Unit,Electronics,144,144.55,20815.2,11499.95,2025-05-09,Shipped
+1369,01-12-2025,Müller GmbH,Hessen,Widget Pro,Electronics,162,20.78,3366.36,1295.25,2025-01-16,Returned
+1464,Feb 11 2025,Bauer Tech,NRW,Cable Kit,Components,117,93.68,10960.56,4154.68,2025-02-21,Shipped
+1270,05.05.2025,  KOCH SOLUTIONS  ,Saxony,Control Board,Industrial,137,106.02,14524.74,9799.95,2025-05-09,Shipped
+1846,03-03-2025,Schneider Fabrik,Hamburg,Sensor Unit,INDUSTRIAL,139,99.62,13847.18,5292.62,2025-03-12,Returned
+1362,2025/05/09,Schneider Fabrik,Berlin,Sensor Unit,Electronics,178,111.11,19777.58,10339.84,,Returned
+1592,Jun 04 2025,Müller GmbH,Saxony,Widget Pro,Industrial,8,113.1,904.8,556.98,2025-06-10,Returned
+1272,Mar 17 2025,Meyer Transport,Bavaria,Widget Pro,Industrial,101,131.26,13257.26,4647.02,2025-03-24,Cancelled
+1384,01-18-2025,Schäfer Elektro,NRW,Power Module,Electronics,26,12.57,326.82,221.43,,Pending
+1082,05-18-2025,Schmidt AG,Hamburg,Cable Kit,Electronics,38,14.64,556.32,196.52,2025-05-26,Pending
+1069,04-07-2025,Schäfer Elektro,Bavaria,Control Board,Components,49,35.63,1745.87,881.0,,Pending
+1205,2025-03-04,Wagner Ltd,Berlin,Power Module,Accessories,9,73.29,659.61,450.43,2025-03-07,Returned
+1668,2025-02-10,Wagner Ltd,Hamburg,Gadget X,Accessories,177,100.48,17784.96,9187.77,2025-02-15,Shipped
+1027,2025-04-14,Meyer Transport,Berlin,Cable Kit,Components,43,132.91,5715.13,2572.41,2025-04-22,Delivered
+1782,05-10-2025,Wagner Ltd,Bavaria,Gadget X,Industrial,139,71.69,9964.91,6755.36,2025-05-11,Shipped
+1076,Feb 19 2025,Müller GmbH,Bavaria,Gadget X,Components,36,23.54,847.44,466.49,2025-02-20,Cancelled
+1392,06-09-2025,Weber Industries,HESSEN,Gadget X,Accessories,21,13.99,293.79,97.07,,Shipped
+1860,04-15-2025,Keller Handels,Saxony,Control Board,Components,162,81.22,13157.64,5979.46,2025-04-18,Cancelled
+1743,03-09-2025,  SCHMIDT AG  ,Hamburg,Widget Pro,Industrial,59,144.61,8531.99,5186.99,2025-03-13,Delivered
+1971,Jun 22 2025,Braun Logistik,Baden-Württemberg,Control Board,Components,61,10.33,630.13,252.66,2025-07-01,Returned
+1855,26/01/2025,Müller GmbH,NRW,Cable Kit,Electronics,119,67.83,8071.77,2552.79,2025-02-04,Delivered
+1870,30-05-2025,Müller GmbH,Hessen,Cable Kit,Electronics,77,58.64,4515.28,1466.82,,Shipped
+1882,2025-04-19,Schmidt AG,Hamburg,Control Board,Components,10,119.96,1199.6,678.87,2025-04-28,Returned
+1902,2025/03/15,Wolf Components,Hamburg,Power Module,Accessories,46,125.67,5780.82,3804.18,2025-03-20,Delivered
+1162,20.01.2025,Richter Systems,Bavaria,Power Module,Components,159,59.5,9460.5,6235.93,2025-01-29,Delivered
+1954,18/03/2025,Fischer Corp,Hessen,Widget Pro,ACCESSORIES,73,97.42,7111.66,4488.47,2025-03-23,Pending
+1423,01-10-2025,Koch Solutions,Bavaria,Widget Pro,Industrial,5,117.31,586.55,235.12,2025-01-18,Pending
+1131,03-11-2025,Richter Systems,Hamburg,Widget Pro,Industrial,17,147.13,2501.21,1478.44,,Returned
+1083,16.06.2025,Schmidt AG,Baden-Württemberg,Power Module,Electronics,199,70.55,14039.45,6979.16,2025-06-23,Returned
+1336,03/02/2025,Schäfer Elektro,Hamburg,Power Module,Electronics,155,63.19,9794.45,5717.84,2025-02-04,Shipped
+1529,2025-04-09,Müller GmbH,Berlin,Power Module,Industrial,79,130.71,10326.09,5482.22,,Cancelled
+1180,2025/04/28,Keller Handels,Bavaria,Sensor Unit,Electronics,13,28.56,371.28,135.2,2025-05-06,Returned
+1089,07/01/2025,Schmidt AG,baden-württemberg,Widget Pro,Accessories,138,41.95,5789.1,3617.28,2025-01-08,Pending
+1254,21/06/2025,Richter Systems,Berlin,Sensor Unit,Electronics,142,5.0,710.0,252.48,,Delivered
+1023,2025/02/17,Schmidt AG,Bavaria,Sensor Unit,Accessories,100,93.21,9321.0,3852.38,2025-02-21,Cancelled
+1024,21-05-2025,Schneider Fabrik,Berlin,Widget Pro,Accessories,196,69.02,13527.92,5653.91,2025-05-31,Returned
+1510,2025/01/02,Schmidt AG,Baden-Württemberg,Gadget X,Accessories,117,63.74,7457.58,4925.01,,Pending
+1151,17/04/2025,Bauer Tech,Baden-Württemberg,Gadget X,Accessories,184,5.82,1070.88,650.59,2025-04-22,Delivered
+1839,22-05-2025,Bauer Tech,Berlin,Sensor Unit,COMPONENTS,188,64.57,12139.16,5050.14,2025-05-23,Delivered
+1478,06-13-2025,Fischer Corp,berlin,Power Module,Components,42,104.74,4399.08,1427.1,2025-06-20,Pending
+1440,21.03.2025,Fischer Corp,Baden-Württemberg,Gadget X,Industrial,174,45.33,7887.42,4810.22,2025-03-29,Shipped
+1625,08.01.2025,Weber Industries,Bavaria,Control Board,Industrial,10,85.6,856.0,407.46,2025-01-18,Delivered
+1863,20-01-2025,Meyer Transport,Berlin,Sensor Unit,Components,100,145.96,14596.0,8241.56,2025-01-23,Cancelled
+1791,Mar 06 2025,Meyer Transport,Bavaria,Cable Kit,Electronics,176,90.71,15964.96,9815.46,2025-03-11,Returned
+1047,04-13-2025,Wagner Ltd,Baden-Württemberg,Power Module,Electronics,138,114.61,15816.18,9710.38,2025-04-14,Shipped
+1213,15.02.2025,Keller Handels,Hessen,Widget Pro,Accessories,97,126.56,12276.32,8197.45,2025-02-23,Cancelled
+1265,Feb 19 2025,Wolf Components,Berlin,Power Module,Industrial,194,123.64,23986.16,14327.64,2025-02-25,Delivered
+1713,31/01/2025,Fischer Corp,NRW,Gadget X,Industrial,199,119.48,23776.52,13946.58,2025-02-03,Shipped
+1415,24.02.2025,Keller Handels,Bavaria,Cable Kit,Components,188,106.66,20052.08,10435.9,2025-03-03,Pending
+1540,06-22-2025,Hoffmann KG,Hamburg,Cable Kit,ACCESSORIES,108,143.82,15532.56,5425.31,2025-06-24,Pending
+1173,21/04/2025,Wagner Ltd,Saxony,Power Module,Industrial,81,133.44,10808.64,5367.51,2025-04-22,Shipped
+1936,08.02.2025,Koch Solutions,Baden-Württemberg,Cable Kit,Industrial,64,37.44,2396.16,1191.31,2025-02-14,Cancelled
+1673,06-06-2025,Keller Handels,Berlin,Sensor Unit,Industrial,84,54.13,4546.92,1501.94,2025-06-13,Shipped
+1230,2025/01/29,Schmidt AG,Berlin,Sensor Unit,Industrial,34,106.66,3626.44,2089.24,2025-02-07,Cancelled
+1460,20.01.2025,Weber Industries,Hamburg,Widget Pro,Accessories,29,148.53,4307.37,2884.2,2025-01-26,Delivered
+1441,2025-06-20,Richter Systems,Berlin,Control Board,Components,57,35.35,2014.95,1169.59,2025-06-28,Shipped
+1466,2025/06/29,Wagner Ltd,Hamburg,Power Module,Accessories,199,126.81,25235.19,16825.79,2025-07-03,Cancelled
+1343,2025/02/17,Schäfer Elektro,Hessen,Cable Kit,Accessories,101,40.26,4066.26,2028.4,2025-02-24,Pending
+1562,28/02/2025,Keller Handels,NRW,Control Board,Accessories,11,62.73,690.03,409.65,,Pending
+1939,09/02/2025,Müller GmbH,Hamburg,Widget Pro,Industrial,180,68.81,12385.8,6381.29,2025-02-19,Delivered
+1649,03-13-2025,Bauer Tech,Bavaria,Sensor Unit,Electronics,-119,96.71,-11508.49,0.0,2025-03-15,Returned
+1895,Jan 15 2025,Bauer Tech,NRW,Power Module,Industrial,156,140.69,21947.64,14344.55,2025-01-17,Delivered
+1462,Feb 07 2025,Bauer Tech,Bavaria,Cable Kit,INDUSTRIAL,96,86.03,8258.88,2610.68,2025-02-15,Delivered
+1987,05/06/2025,Fischer Corp,Berlin,Control Board,Electronics,-182,47.45,-8635.9,0.0,2025-06-07,Cancelled
+1255,2025-02-27,Keller Handels,Baden-Württemberg,Power Module,Electronics,73,75.59,5518.07,1718.17,2025-03-01,Returned
+1183,2025/06/02,Meyer Transport,Baden-Württemberg,Sensor Unit,Components,91,64.45,5864.95,3557.83,2025-06-07,Returned
+1397,2025-05-27,Richter Systems,Berlin,Power Module,Components,43,82.44,3544.92,1366.65,2025-05-29,Cancelled
+1528,14-06-2025,Koch Solutions,Saxony,Widget Pro,Industrial,12,28.2,338.4,152.71,2025-06-22,Cancelled
+1598,May 21 2025,Müller GmbH,Hessen,Cable Kit,Electronics,76,18.65,1417.4,470.66,2025-05-23,Pending
+1905,25/06/2025,Bauer Tech,bavaria,Control Board,Electronics,83,56.52,4691.16,2910.17,2025-07-04,Cancelled
+1291,29/05/2025,Schneider Fabrik,HESSEN,Power Module,Accessories,14,54.37,761.18,480.29,2025-06-06,Shipped
+1193,05-23-2025,Schneider Fabrik,Bavaria,Cable Kit,Industrial,51,131.83,6723.33,3902.3,2025-05-24,Pending
+1264,2025/02/24,Keller Handels,NRW,Widget Pro,Accessories,81,104.77,8486.37,4674.26,2025-02-27,Delivered
+1940,2025/06/29,Hoffmann KG,NRW,Gadget X,Components,7,81.75,572.25,226.08,2025-07-04,Delivered
+1759,2025-01-19,Koch Solutions,Hessen,Power Module,Electronics,92,133.95,12323.4,7325.64,2025-01-21,Pending
+1980,03-24-2025,Fischer Corp,Baden-Württemberg,Power Module,ELECTRONICS,113,87.51,9888.63,5725.22,2025-03-31,Delivered
+1171,12-06-2025,Bauer Tech,Saxony,Gadget X,Industrial,38,100.7,3826.6,1905.04,,Delivered
+1457,23.04.2025,  RICHTER SYSTEMS  ,Hamburg,Power Module,Electronics,60,25.5,1530.0,691.62,2025-04-28,Cancelled
+1941,24.04.2025,Keller Handels,Saxony,Power Module,Components,190,67.87,12895.3,6672.61,2025-04-28,Shipped
+1686,05-13-2025,Schmidt AG,Bavaria,Sensor Unit,Accessories,66,46.15,3045.9,1805.95,2025-05-17,Shipped
+1094,02-24-2025,Schmidt AG,Hamburg,Cable Kit,Components,83,132.53,10999.99,5175.9,2025-03-06,Cancelled
+1561,13-04-2025,Wolf Components,HAMBURG,Cable Kit,Components,101,129.7,13099.7,6665.86,2025-04-15,Shipped
+1998,01-05-2025,Braun Logistik,Berlin,Power Module,Accessories,22,113.95,2506.9,998.24,2025-05-10,Returned
+1277,May 09 2025,Weber Industries,Bavaria,Control Board,Components,16,136.96,2191.36,922.18,2025-05-14,Pending
+1319,2025-02-06,Schäfer Elektro,Bavaria,Control Board,Electronics,25,46.07,1151.75,461.1,2025-02-16,Cancelled
+1189,2025-03-03,Schmidt AG,Baden-Württemberg,Widget Pro,Components,174,41.7,7255.8,2830.16,,Delivered
+1437,22.02.2025,Bauer Tech,Bavaria,Widget Pro,Electronics,47,52.38,2461.86,1569.23,2025-02-28,Returned
+1699,04-18-2025,Bauer Tech,Baden-Württemberg,Control Board,Industrial,93,51.03,4745.79,2806.96,2025-04-27,Returned
+1429,2025/03/30,Keller Handels,NRW,Power Module,Components,105,37.66,3954.3,2204.55,2025-04-04,Delivered
+1604,28/04/2025,Meyer Transport,Hamburg,Gadget X,Accessories,115,81.71,9396.65,4637.3,2025-05-02,Pending
+1622,03-03-2025,Schneider Fabrik,Bavaria,Widget Pro,Accessories,18,41.05,738.9,508.94,2025-03-06,Pending
+1584,2025-03-14,Wolf Components,Saxony,Sensor Unit,Components,131,123.84,16223.04,6059.7,2025-03-24,Shipped
+1323,02-17-2025,Weber Industries,Berlin,Power Module,Components,-35,14.57,-509.95,0.0,2025-02-22,Shipped
+1760,05/06/2025,Wagner Ltd,Hamburg,Sensor Unit,Components,-84,11.76,-987.84,0.0,2025-06-14,Delivered
+1733,02-06-2025,Hoffmann KG,Saxony,Sensor Unit,Accessories,146,147.13,21480.98,8137.79,2025-02-14,Returned
+1160,19/05/2025,Richter Systems,Berlin,Cable Kit,Accessories,138,47.8,6596.4,3532.59,2025-05-29,Cancelled
+1524,2025-01-17,Bauer Tech,Saxony,Power Module,Accessories,22,112.05,2465.1,1489.39,2025-01-19,Cancelled
+1612,2025-04-30,Schmidt AG,NRW,Cable Kit,Components,139,120.52,16752.28,8503.55,2025-05-01,Cancelled
+1894,03/02/2025,Schneider Fabrik,Saxony,Power Module,ELECTRONICS,21,126.14,2648.94,1747.34,2025-02-05,Shipped
+1358,01-03-2025,Wolf Components,Hamburg,Gadget X,Industrial,139,23.02,3199.78,1292.29,2025-03-02,Shipped
+1912,02-04-2025,,Hessen,Control Board,Industrial,82,116.17,9525.94,3540.85,2025-04-06,Shipped
+1829,28-05-2025,Meyer Transport,Saxony,Power Module,Electronics,135,61.61,8317.35,3220.71,2025-06-03,Returned
+1465,03/05/2025,Hoffmann KG,Hamburg,Widget Pro,Electronics,78,125.28,9771.84,4937.54,2025-05-11,Returned
+1325,2025-03-20,Schmidt AG,Berlin,Power Module,Components,153,67.98,10400.94,6337.0,2025-03-28,Delivered
+1249,Apr 29 2025,Weber Industries,NRW,Control Board,Components,105,73.72,7740.6,4542.29,2025-05-04,Delivered
+1897,06-24-2025,Müller GmbH,Baden-Württemberg,Power Module,Components,121,74.28,8987.88,3198.03,,Cancelled
+1146,02-09-2025,Richter Systems,BADEN-WÜRTTEMBERG,Gadget X,Accessories,86,126.48,10877.28,7537.91,2025-02-18,Delivered
+1779,23-04-2025,Schäfer Elektro,Berlin,Sensor Unit,Components,19,32.06,609.14,401.43,2025-05-01,Delivered
+1704,07-04-2025,Schmidt AG,NRW,Widget Pro,Accessories,158,99.93,15788.94,7650.78,2025-04-09,Returned
+1335,05-02-2025,Hoffmann KG,Berlin,Cable Kit,Industrial,43,127.33,5475.19,3139.23,2025-05-06,Pending
+1552,2025/02/11,Fischer Corp,Berlin,Cable Kit,ACCESSORIES,110,54.65,6011.5,3219.93,,Cancelled
+1825,05-17-2025,Wolf Components,NRW,Cable Kit,Accessories,82,80.31,6585.42,4030.98,2025-05-27,Cancelled
+1056,06-26-2025,Weber Industries,Bavaria,Power Module,Components,78,38.62,3012.36,949.69,2025-06-28,Cancelled
+1486,30-05-2025,Weber Industries,SAXONY,Gadget X,Accessories,135,71.14,9603.9,3977.38,2025-06-02,Pending
+1608,2025/06/26,Schäfer Elektro,Baden-Württemberg,Control Board,Industrial,100,111.84,11184.0,5727.71,2025-06-30,Returned
+1861,2025-02-16,Schäfer Elektro,Berlin,Power Module,Accessories,87,65.74,5719.38,2797.22,2025-02-22,Cancelled
+1634,2025/05/21,Keller Handels,Hamburg,Cable Kit,Components,32,95.58,3058.56,1642.95,2025-05-31,Shipped
+1794,27.03.2025,  BAUER TECH  ,Baden-Württemberg,Widget Pro,Components,70,109.7,7679.0,4114.05,2025-04-01,Shipped
+1273,Apr 21 2025,Keller Handels,Hessen,Control Board,Industrial,125,29.6,3700.0,1175.65,2025-04-25,Pending
+1479,2025/03/02,Weber Industries,Hamburg,Control Board,Electronics,182,27.78,5055.96,3466.69,2025-03-11,Delivered
+1216,2025-05-12,Fischer Corp,Berlin,Cable Kit,Accessories,167,93.63,15636.21,6965.43,2025-05-21,Delivered
+1377,Jun 06 2025,Schneider Fabrik,berlin,Sensor Unit,Components,118,43.46,5128.28,2559.6,2025-06-09,Delivered
+1761,2025/01/22,Müller GmbH,Baden-Württemberg,Gadget X,Electronics,174,114.64,19947.36,12725.04,2025-01-31,Delivered
+1428,30-01-2025,Hoffmann KG,Berlin,Gadget X,Electronics,102,60.98,6219.96,2320.43,2025-02-03,Pending
+1609,03.05.2025,Schneider Fabrik,NRW,Widget Pro,Components,156,43.51,6787.56,2253.55,2025-05-06,Pending
+1046,Feb 13 2025,Richter Systems,NRW,Cable Kit,Electronics,97,99.48,9649.56,6243.37,2025-02-22,Delivered
+1614,27-02-2025,Braun Logistik,Saxony,Power Module,COMPONENTS,90,67.43,6068.7,2833.46,2025-03-03,Pending
+1075,2025/03/22,Schmidt AG,Saxony,Widget Pro,Accessories,-18,146.86,-2643.48,0.0,2025-03-30,Returned
+1621,2025/01/28,Richter Systems,Hamburg,Widget Pro,Components,186,36.9,6863.4,2384.66,2025-02-04,Cancelled
+1722,04-25-2025,  RICHTER SYSTEMS  ,Hessen,Widget Pro,Electronics,127,81.03,10290.81,3222.42,2025-05-01,Cancelled
+1784,03-15-2025,Schmidt AG,Bavaria,Widget Pro,Components,134,75.45,10110.3,4725.56,2025-03-20,Shipped
+1807,28.01.2025,Schmidt AG,Bavaria,Widget Pro,Industrial,14,73.38,1027.32,669.93,2025-02-05,Shipped
+1142,Jan 31 2025,,saxony,Widget Pro,COMPONENTS,54,18.54,1001.16,316.48,2025-02-05,Shipped
+1762,Mar 11 2025,Wagner Ltd,bavaria,Cable Kit,Electronics,180,59.37,10686.6,4635.57,2025-03-21,Returned
+1124,Apr 11 2025,Schneider Fabrik,Bavaria,Control Board,Industrial,48,114.74,5507.52,2208.27,,Cancelled
+1055,06-22-2025,Schäfer Elektro,Berlin,Sensor Unit,INDUSTRIAL,11,16.28,179.08,84.72,2025-06-27,Cancelled
+1858,06-29-2025,Bauer Tech,saxony,Cable Kit,Electronics,-71,34.13,-2423.23,0.0,2025-07-06,Shipped
+1983,2025-01-17,Hoffmann KG,Baden-Württemberg,Control Board,Components,175,122.62,21458.5,10596.41,2025-01-18,Pending
+1331,28/05/2025,Schneider Fabrik,Bavaria,Cable Kit,Electronics,69,148.6,10253.4,4501.86,2025-06-03,Returned
+1520,28.06.2025,Fischer Corp,Hamburg,Power Module,Components,77,45.82,3528.14,1066.39,2025-07-08,Returned
+1201,03.05.2025,Schneider Fabrik,Hamburg,Widget Pro,Electronics,44,119.19,5244.36,1835.66,2025-05-05,Shipped
+1140,03-06-2025,Richter Systems,NRW,Sensor Unit,Components,75,126.69,9501.75,5293.63,2025-06-12,Pending
+1548,07.01.2025,Schäfer Elektro,Berlin,Control Board,Industrial,78,118.12,9213.36,3919.8,2025-01-08,Delivered
+1456,2025-06-13,Wolf Components,Bavaria,Control Board,Accessories,63,103.48,6519.24,2418.13,2025-06-14,Cancelled
+1851,12-04-2025,Müller GmbH,Hessen,Power Module,Components,19,72.66,1380.54,622.03,2025-04-18,Delivered
+1865,2025/01/09,Braun Logistik,Bavaria,Sensor Unit,Industrial,165,29.63,4888.95,1992.74,2025-01-14,Cancelled
+1832,2025/03/26,Richter Systems,Saxony,Widget Pro,Industrial,178,6.16,1096.48,675.29,2025-04-01,Delivered
+1178,03/04/2025,Weber Industries,Hessen,Gadget X,Electronics,131,118.09,15469.79,6319.57,2025-04-12,Shipped
+1058,20/05/2025,Keller Handels,NRW,Power Module,Accessories,175,35.32,6181.0,2280.52,2025-05-24,Shipped
+1624,02-15-2025,Richter Systems,Baden-Württemberg,Gadget X,COMPONENTS,154,135.81,20914.74,13999.13,2025-02-21,Cancelled
+1366,03/01/2025,Meyer Transport,Berlin,Sensor Unit,Accessories,129,51.21,6606.09,2941.36,2025-01-10,Cancelled
+1314,2025/02/04,Schmidt AG,Berlin,Cable Kit,Components,22,132.64,2918.08,1732.24,2025-02-10,Cancelled
+1169,01-03-2025,Koch Solutions,Hessen,Widget Pro,Industrial,91,51.41,4678.31,2878.74,2025-01-04,Delivered
+1834,Jun 16 2025,Richter Systems,SAXONY,Cable Kit,Accessories,71,124.39,8831.69,2891.1,2025-06-19,Delivered
+1893,01-19-2025,Wolf Components,NRW,Sensor Unit,Accessories,118,140.86,16621.48,10255.02,2025-01-25,Pending
+1719,Mar 29 2025,Richter Systems,Saxony,Power Module,Electronics,71,143.77,10207.67,3409.71,2025-04-05,Pending
+1199,Jan 17 2025,Wolf Components,Hamburg,Widget Pro,COMPONENTS,167,77.94,13015.98,4851.17,2025-01-25,Pending
+1480,05-09-2025,Schäfer Elektro,NRW,Power Module,Electronics,90,114.22,10279.8,5399.4,2025-05-12,Delivered
+1500,20-05-2025,Schmidt AG,NRW,Control Board,Industrial,123,37.06,4558.38,2007.55,2025-05-26,Delivered
+1978,16-02-2025,Weber Industries,Saxony,Widget Pro,Industrial,29,131.35,3809.15,1717.76,2025-02-22,Delivered
+1062,May 27 2025,Wagner Ltd,NRW,Power Module,Components,107,66.31,7095.17,3541.98,2025-05-31,Pending
+1130,26-03-2025,Braun Logistik,Hamburg,Power Module,ELECTRONICS,63,54.96,3462.48,1350.73,2025-04-02,Cancelled
+1967,2025/06/28,Schneider Fabrik,Bavaria,Cable Kit,Electronics,31,124.14,3848.34,1575.59,2025-07-04,Returned
+1556,20-03-2025,Schäfer Elektro,Saxony,Cable Kit,Components,-142,148.83,-21133.86,0.0,2025-03-25,Returned
+1123,2025-05-18,Weber Industries,Saxony,Widget Pro,Accessories,55,46.8,2574.0,1450.91,2025-05-20,Pending
+1086,Jun 12 2025,Schneider Fabrik,Hessen,Cable Kit,Industrial,6,42.92,257.52,100.32,2025-06-22,Shipped
+1852,12/01/2025,Koch Solutions,Bavaria,Cable Kit,Accessories,118,117.42,13855.56,8807.61,2025-01-20,Returned
+1514,2025/01/23,Meyer Transport,Baden-Württemberg,Control Board,Industrial,119,120.42,14329.98,5597.95,,Pending
+1685,2025/02/19,Wolf Components,Saxony,Power Module,Components,191,92.78,17720.98,5820.76,2025-03-01,Cancelled
+1166,07/01/2025,Hoffmann KG,Hessen,Power Module,Industrial,189,5.27,996.03,316.03,2025-01-13,Returned
+1309,Feb 10 2025,Keller Handels,Bavaria,Power Module,Accessories,194,103.74,20125.56,10016.79,,Delivered
+1050,2025-01-23,Richter Systems,Hamburg,Control Board,Accessories,5,113.72,568.6,190.94,2025-01-25,Returned
+1539,2025/02/15,Wolf Components,NRW,Gadget X,Accessories,16,65.15,1042.4,497.92,2025-02-16,Pending
+1523,03-14-2025,  KELLER HANDELS  ,Baden-Württemberg,Cable Kit,Electronics,122,7.92,966.24,620.27,2025-03-20,Shipped
+1994,2025-05-05,Wolf Components,Bavaria,Gadget X,Industrial,97,97.19,9427.43,4000.0,2025-05-15,Pending
+1544,28/03/2025,Fischer Corp,BAVARIA,Power Module,Electronics,115,73.81,8488.15,5860.69,,Pending
+1443,03-03-2025,Schmidt AG,Saxony,Power Module,Industrial,95,10.86,1031.7,547.43,2025-03-09,Returned
+1409,21-03-2025,Hoffmann KG,Hamburg,Control Board,Accessories,60,142.09,8525.4,3891.86,2025-03-29,Shipped
+1890,2025-02-09,Fischer Corp,Hamburg,Control Board,Components,143,7.67,1096.81,602.58,2025-02-19,Pending
+1717,03-31-2025,Bauer Tech,Hamburg,Sensor Unit,Industrial,31,59.82,1854.42,1255.11,2025-04-01,Cancelled
+1768,May 24 2025,  KELLER HANDELS  ,Hessen,Cable Kit,Components,143,112.27,16054.61,6181.68,,Pending
+1789,05-04-2025,  SCHMIDT AG  ,Bavaria,Gadget X,Electronics,5,43.58,217.9,83.19,2025-05-05,Delivered
+1481,2025-06-27,Braun Logistik,Hamburg,Sensor Unit,Accessories,176,130.03,22885.28,12330.11,2025-07-04,Pending
+1814,23.04.2025,Schneider Fabrik,Bavaria,Sensor Unit,Components,99,122.97,12174.03,5836.54,2025-05-01,Returned
+1920,03-03-2025,Bauer Tech,Baden-Württemberg,Control Board,INDUSTRIAL,168,119.41,20060.88,6960.35,,Shipped
+1678,11/05/2025,Schmidt AG,NRW,Cable Kit,Industrial,52,58.86,3060.72,1673.71,2025-05-20,Returned
+1908,03-31-2025,Wagner Ltd,Bavaria,Control Board,Components,37,38.32,1417.84,624.85,2025-04-09,Cancelled
+1671,2025-03-27,Meyer Transport,Saxony,Power Module,Electronics,187,102.16,19103.92,6929.25,2025-04-03,Returned
+1666,01-21-2025,Fischer Corp,NRW,Cable Kit,Components,142,91.63,13011.46,6121.82,,Pending
+1619,18.02.2025,Müller GmbH,Saxony,Control Board,Components,65,26.27,1707.55,833.7,2025-02-19,Returned
+1021,07-05-2025,Wolf Components,Saxony,Widget Pro,Industrial,198,100.36,19871.28,12961.67,2025-05-16,Pending
+1793,2025/05/25,Wagner Ltd,Saxony,Power Module,Accessories,140,58.4,8176.0,3036.2,2025-05-26,Delivered
+1606,12-01-2025,Schmidt AG,Saxony,Gadget X,Electronics,11,140.02,1540.22,725.1,2025-01-22,Delivered
+1313,2025-04-23,Keller Handels,Hessen,Power Module,Electronics,124,60.19,7463.56,4138.94,2025-04-29,Shipped
+1091,16-06-2025,Wolf Components,Saxony,Widget Pro,Electronics,94,122.95,11557.3,4520.36,2025-06-17,Shipped
+1248,14.06.2025,Meyer Transport,Bavaria,Widget Pro,Industrial,86,103.51,8901.86,4310.4,2025-06-17,Delivered
+1427,07-02-2025,Bauer Tech,Hessen,Cable Kit,COMPONENTS,23,105.44,2425.12,809.04,2025-02-10,Delivered
+1247,20/04/2025,Koch Solutions,Hamburg,Gadget X,INDUSTRIAL,39,75.37,2939.43,1550.54,2025-04-22,Pending
+1589,Mar 08 2025,Schneider Fabrik,Berlin,Widget Pro,Components,-188,27.28,-5128.64,0.0,2025-03-12,Delivered
+1071,2025-05-13,Braun Logistik,Hamburg,Widget Pro,Accessories,47,58.05,2728.35,1362.65,2025-05-22,Cancelled
+1476,02-07-2025,  WEBER INDUSTRIES  ,bavaria,Cable Kit,Accessories,58,37.2,2157.6,1232.99,2025-02-15,Shipped
+1502,May 09 2025,  KOCH SOLUTIONS  ,Bavaria,Sensor Unit,Industrial,117,108.37,12679.29,7948.54,2025-05-15,Returned
+1778,2025/04/15,Bauer Tech,Saxony,Sensor Unit,Electronics,11,28.31,311.41,149.13,2025-04-23,Delivered
+1491,2025-04-25,Schneider Fabrik,Hessen,Widget Pro,Components,-50,32.21,-1610.5,0.0,2025-05-02,Pending
+1745,10-01-2025,Keller Handels,Baden-Württemberg,Power Module,Electronics,141,43.37,6115.17,2352.96,2025-01-14,Returned
+1398,07/06/2025,Wagner Ltd,Bavaria,Cable Kit,INDUSTRIAL,197,64.2,12647.4,5692.13,2025-06-09,Returned
+1493,02-03-2025,Müller GmbH,HESSEN,Gadget X,Electronics,129,99.36,12817.44,4023.99,2025-03-08,Delivered
+1536,Apr 16 2025,Schäfer Elektro,Baden-Württemberg,Power Module,Electronics,165,38.35,6327.75,3428.77,2025-04-26,Delivered
+1177,06-01-2025,  MEYER TRANSPORT  ,Berlin,Widget Pro,Components,94,110.87,10421.78,3621.92,2025-06-03,Cancelled
+1799,23/03/2025,Weber Industries,Saxony,Widget Pro,Components,89,30.92,2751.88,1622.45,2025-03-24,Returned
+1051,01/05/2025,Koch Solutions,Hessen,Sensor Unit,ACCESSORIES,193,129.54,25001.22,15930.82,,Pending
+1597,Mar 05 2025,Bauer Tech,NRW,Sensor Unit,Components,146,71.12,10383.52,5848.43,2025-03-07,Pending
+1418,01-20-2025,,Hessen,Widget Pro,COMPONENTS,145,46.15,6691.75,2325.17,2025-01-29,Shipped
+1356,Feb 04 2025,Koch Solutions,Saxony,Control Board,Accessories,169,56.82,9602.58,5663.13,2025-02-09,Pending
+1656,04-01-2025,Braun Logistik,Bavaria,Control Board,Industrial,188,80.63,15158.44,6248.82,2025-04-02,Pending
+1079,2025/02/28,Hoffmann KG,Berlin,Power Module,Industrial,59,83.2,4908.8,3102.87,2025-03-06,Pending
+1586,06/05/2025,Hoffmann KG,Baden-Württemberg,Cable Kit,Electronics,161,92.7,14924.7,9817.79,2025-05-13,Pending
+1572,May 08 2025,Weber Industries,Baden-Württemberg,Control Board,Industrial,172,63.72,10959.84,6786.05,2025-05-15,Pending
+1976,02-05-2025,Braun Logistik,Hamburg,Gadget X,ELECTRONICS,45,127.63,5743.35,3601.74,2025-05-07,Delivered
+1253,25-01-2025,Weber Industries,Hamburg,Sensor Unit,Components,33,44.23,1459.59,967.36,2025-01-26,Cancelled
+1518,09/05/2025,Fischer Corp,nrw,Control Board,Components,137,147.3,20180.1,9261.5,2025-05-17,Cancelled
+1658,Feb 23 2025,Koch Solutions,Baden-Württemberg,Gadget X,Industrial,-9,22.53,-202.77,0.0,,Shipped
+1175,18/06/2025,Schneider Fabrik,Hessen,Cable Kit,Accessories,99,44.67,4422.33,1921.19,2025-06-21,Cancelled
+1329,2025-03-12,Weber Industries,Bavaria,Gadget X,Industrial,117,22.25,2603.25,861.55,2025-03-19,Pending
+1820,10/06/2025,Keller Handels,Hessen,Sensor Unit,Components,101,95.68,9663.68,6614.95,2025-06-17,Returned
+1875,28-01-2025,Braun Logistik,Bavaria,Control Board,Electronics,11,58.17,639.87,295.28,2025-02-04,Delivered
+1242,03-28-2025,Müller GmbH,Hessen,Sensor Unit,Electronics,64,38.69,2476.16,1637.78,2025-04-04,Delivered
+1570,17/04/2025,Keller Handels,Hessen,Cable Kit,Industrial,42,9.15,384.3,246.5,2025-04-27,Delivered
+1499,Feb 27 2025,Meyer Transport,Hamburg,Sensor Unit,Accessories,136,62.03,8436.08,3316.36,2025-03-02,Delivered
+1974,2025/01/18,Meyer Transport,Berlin,Power Module,Industrial,35,80.1,2803.5,1620.37,2025-01-24,Cancelled
+1553,06-29-2025,Müller GmbH,Saxony,Sensor Unit,Components,106,118.56,12567.36,7000.15,2025-07-02,Delivered
+1381,19/02/2025,Bauer Tech,NRW,Sensor Unit,Electronics,197,29.81,5872.57,2030.53,2025-02-26,Cancelled
+1355,2025/01/26,Hoffmann KG,NRW,Gadget X,Industrial,17,115.37,1961.29,1182.98,2025-02-04,Returned
+1360,Mar 14 2025,Braun Logistik,Hessen,Widget Pro,INDUSTRIAL,134,23.06,3090.04,1714.9,2025-03-20,Delivered
+1227,19-06-2025,Weber Industries,SAXONY,Control Board,Accessories,33,74.8,2468.4,747.74,2025-06-20,Pending
+1696,2025/06/21,Schneider Fabrik,Bavaria,Control Board,Industrial,159,117.15,18626.85,12402.4,2025-06-24,Delivered
+1011,03-11-2025,Braun Logistik,Baden-Württemberg,Widget Pro,Electronics,150,53.03,7954.5,3989.69,2025-03-21,Pending
+1275,04.04.2025,Braun Logistik,Bavaria,Control Board,ACCESSORIES,141,122.66,17295.06,6538.73,2025-04-06,Returned
+1379,02.04.2025,Braun Logistik,Hamburg,Sensor Unit,Components,151,25.01,3776.51,1648.43,2025-04-07,Returned
+1527,Mar 26 2025,Hoffmann KG,berlin,Cable Kit,Electronics,110,48.07,5287.7,2736.68,,Shipped
+1646,06.05.2025,Wagner Ltd,Berlin,Gadget X,Industrial,128,126.64,16209.92,5049.45,2025-05-10,Returned
+1134,09.02.2025,Keller Handels,Berlin,Gadget X,Accessories,176,133.03,23413.28,11030.0,2025-02-13,Shipped
+1873,2025/02/07,Keller Handels,berlin,Power Module,Electronics,148,132.81,19655.88,6648.67,2025-02-09,Cancelled
+1629,Jun 27 2025,Keller Handels,NRW,Cable Kit,Industrial,114,20.73,2363.22,1169.25,2025-07-05,Pending
+1700,2025-04-08,Bauer Tech,Berlin,Cable Kit,Accessories,117,6.32,739.44,327.62,,Shipped
+1620,11-05-2025,Bauer Tech,Hessen,Sensor Unit,Components,13,54.37,706.81,368.88,2025-05-20,Cancelled
+1753,14-03-2025,Wagner Ltd,Berlin,Widget Pro,Electronics,130,26.53,3448.9,1357.73,2025-03-23,Cancelled
+1432,02.03.2025,Meyer Transport,Saxony,Sensor Unit,Electronics,32,112.23,3591.36,1709.5,2025-03-06,Pending
+1709,17/01/2025,Hoffmann KG,Saxony,Power Module,Components,152,93.62,14230.24,5717.61,2025-01-21,Delivered
+1741,2025-06-15,Meyer Transport,NRW,Sensor Unit,Components,145,34.84,5051.8,2954.71,,Returned
+1276,2025-02-18,Müller GmbH,Hessen,Cable Kit,Components,9,17.99,161.91,96.28,2025-02-28,Delivered
+1809,2025-02-07,Richter Systems,Bavaria,Sensor Unit,Accessories,133,27.57,3666.81,2432.67,2025-02-17,Returned
+1956,27.03.2025,Schneider Fabrik,Berlin,Cable Kit,Components,66,26.33,1737.78,1142.73,2025-04-05,Pending
+1061,23-03-2025,Keller Handels,Hessen,Cable Kit,ACCESSORIES,57,102.8,5859.6,3979.7,2025-04-02,Cancelled
+1641,18/01/2025,Wolf Components,Berlin,Cable Kit,Industrial,103,59.92,6171.76,3778.77,,Cancelled
+1668,2025-02-10,Wagner Ltd,Hamburg,Gadget X,Accessories,177,100.48,17784.96,9187.77,2025-02-15,Shipped
+1750,Jun 23 2025,Richter Systems,Hamburg,Power Module,Accessories,19,145.23,2759.37,1597.47,,Cancelled
+1654,2025/04/18,Bauer Tech,NRW,Control Board,COMPONENTS,144,74.38,10710.72,3292.84,,Returned
+1877,2025/06/18,Richter Systems,baden-württemberg,Widget Pro,Accessories,156,32.25,5031.0,2264.58,2025-06-19,Shipped
+1504,Apr 12 2025,Meyer Transport,NRW,Sensor Unit,Accessories,127,105.0,13335.0,8240.12,2025-04-22,Shipped
+1002,01.03.2025,Schneider Fabrik,Berlin,Cable Kit,Accessories,76,39.36,2991.36,1867.97,2025-03-10,Shipped
+1137,28.01.2025,Fischer Corp,NRW,Power Module,Components,165,118.42,19539.3,10483.0,2025-01-29,Cancelled
+1734,2025/05/18,Müller GmbH,Bavaria,Sensor Unit,Accessories,-166,118.22,-19624.52,0.0,2025-05-19,Pending
+1326,2025-05-31,Schäfer Elektro,Hessen,Widget Pro,Components,146,136.7,19958.2,7901.85,,Pending
+1541,26.06.2025,Müller GmbH,Baden-Württemberg,Control Board,Accessories,30,93.68,2810.4,1915.45,2025-07-01,Pending
+1133,22-05-2025,Hoffmann KG,Hessen,Control Board,Industrial,155,38.89,6027.95,2735.19,2025-05-29,Delivered
+1543,2025-05-16,Koch Solutions,hessen,Sensor Unit,Components,61,32.04,1954.44,977.11,2025-05-19,Pending
+1795,09/04/2025,Schmidt AG,Berlin,Power Module,Electronics,94,95.3,8958.2,3007.39,,Shipped
+1450,15.04.2025,Schmidt AG,Baden-Württemberg,Sensor Unit,Electronics,200,55.47,11094.0,6725.76,2025-04-22,Shipped
+1896,28-01-2025,Richter Systems,NRW,Power Module,Components,115,118.7,13650.5,9390.47,2025-02-07,Returned
+1666,01-21-2025,Fischer Corp,NRW,Cable Kit,Components,142,91.63,13011.46,6121.82,,Pending
+1070,2025/04/16,Meyer Transport,Berlin,Widget Pro,Components,171,73.68,12599.28,7491.7,2025-04-17,Cancelled
+1088,30/01/2025,Schäfer Elektro,Hessen,Power Module,Electronics,193,100.75,19444.75,7396.46,,Returned
+1689,04.03.2025,Schäfer Elektro,SAXONY,Gadget X,Electronics,39,18.86,735.54,455.59,2025-03-06,Returned
+1010,2025-04-16,Fischer Corp,Bavaria,Control Board,Electronics,13,103.05,1339.65,657.79,,Pending
+1697,Jun 13 2025,Schäfer Elektro,Hessen,Control Board,Electronics,198,88.81,17584.38,6899.19,2025-06-23,Pending
+1725,02-09-2025,Richter Systems,BERLIN,Control Board,Components,32,79.41,2541.12,1663.04,2025-02-11,Returned
+1158,04-09-2025,Koch Solutions,Hamburg,Gadget X,Components,154,137.1,21113.4,13022.94,2025-04-13,Returned
+1943,2025/05/09,Richter Systems,Baden-Württemberg,Sensor Unit,Industrial,198,36.24,7175.52,4879.38,,Cancelled
+1074,08/03/2025,,Saxony,Cable Kit,Electronics,134,73.87,9898.58,3398.5,2025-03-17,Delivered
+1406,01-19-2025,Schäfer Elektro,BERLIN,Sensor Unit,Electronics,45,6.52,293.4,201.87,2025-01-29,Delivered
+1439,08-03-2025,Fischer Corp,Berlin,Sensor Unit,Electronics,69,81.78,5642.82,3663.02,2025-03-12,Returned
+1702,28.03.2025,Meyer Transport,Bavaria,Widget Pro,Electronics,121,137.75,16667.75,6359.23,2025-03-30,Returned
+1411,12-04-2025,Koch Solutions,BAVARIA,Power Module,INDUSTRIAL,180,28.45,5121.0,3246.73,2025-04-17,Delivered
+1587,2025-04-18,  SCHMIDT AG  ,Baden-Württemberg,Control Board,Accessories,59,87.06,5136.54,3062.28,,Pending
+1433,19.06.2025,Müller GmbH,Baden-Württemberg,Sensor Unit,Components,87,147.49,12831.63,8364.88,2025-06-21,Delivered
+1092,2025/06/20,,Baden-Württemberg,Sensor Unit,Components,170,19.97,3394.9,1380.37,2025-06-26,Delivered
+1969,2025/04/16,Fischer Corp,Saxony,Power Module,Accessories,129,120.37,15527.73,7714.5,2025-04-24,Delivered
+1099,09/01/2025,Fischer Corp,Berlin,Sensor Unit,Components,62,113.68,7048.16,3678.65,2025-01-14,Pending
+1089,07/01/2025,Schmidt AG,baden-württemberg,Widget Pro,Accessories,138,41.95,5789.1,3617.28,2025-01-08,Pending
+1363,06-08-2025,Meyer Transport,Hessen,Cable Kit,Industrial,195,92.29,17996.55,6537.38,2025-06-18,Delivered
+1033,2025/06/03,Keller Handels,NRW,Gadget X,Components,108,34.54,3730.32,1212.33,2025-06-10,Shipped
+1805,25-06-2025,Richter Systems,Berlin,Gadget X,Accessories,181,97.54,17654.74,8713.71,2025-07-02,Delivered
+1645,19/03/2025,,Bavaria,Sensor Unit,Accessories,83,108.17,8978.11,4862.24,2025-03-23,Cancelled
+1580,03-03-2025,Schäfer Elektro,Hessen,Control Board,Electronics,-60,142.54,-8552.4,0.0,,Delivered
+1715,02-24-2025,Hoffmann KG,Hessen,Control Board,Components,49,100.87,4942.63,1519.06,2025-03-04,Cancelled
+1413,Apr 13 2025,Koch Solutions,Hessen,Power Module,Electronics,112,125.07,14007.84,4681.66,2025-04-23,Pending
+1563,2025/01/29,Müller GmbH,Hamburg,Widget Pro,Accessories,81,24.8,2008.8,1206.93,2025-02-03,Pending
+1509,18.04.2025,Schmidt AG,NRW,Gadget X,Accessories,143,58.91,8424.13,5322.34,2025-04-23,Returned
+1564,29.05.2025,Meyer Transport,Berlin,Widget Pro,Industrial,28,41.14,1151.92,761.16,2025-06-04,Returned
+1833,2025-04-02,Schmidt AG,Saxony,Widget Pro,Components,199,87.04,17320.96,5487.87,2025-04-04,Pending
+1993,03/04/2025,Müller GmbH,Hessen,Control Board,Components,133,95.21,12662.93,4084.23,2025-04-08,Returned
+1796,2025-01-24,Wagner Ltd,Saxony,Sensor Unit,Components,193,100.16,19330.88,11647.89,2025-01-25,Shipped
+1237,06-22-2025,Wolf Components,Bavaria,Power Module,Industrial,19,65.17,1238.23,512.03,2025-07-01,Pending
+1925,2025/03/30,Keller Handels,Bavaria,Cable Kit,COMPONENTS,145,19.95,2892.75,1304.8,2025-04-07,Cancelled
+1975,23.03.2025,Fischer Corp,Hamburg,Gadget X,Electronics,54,108.8,5875.2,1775.35,2025-03-24,Delivered
+1872,04.04.2025,Braun Logistik,NRW,Control Board,Accessories,116,44.81,5197.96,3345.44,2025-04-08,Delivered
+1256,22.06.2025,Hoffmann KG,Berlin,Power Module,Accessories,13,112.5,1462.5,939.78,2025-06-27,Pending
+1222,2025/06/09,  WEBER INDUSTRIES  ,NRW,Power Module,Components,139,57.61,8007.79,3540.97,2025-06-16,Returned
+1472,Apr 26 2025,Keller Handels,NRW,Gadget X,Industrial,27,99.67,2691.09,1109.48,2025-04-28,Returned
+1864,2025-04-11,  KELLER HANDELS  ,Baden-Württemberg,Control Board,Accessories,7,93.06,651.42,448.19,2025-04-20,Delivered
+1674,18-01-2025,Weber Industries,NRW,Sensor Unit,Industrial,124,78.57,9742.68,5413.9,2025-01-21,Shipped
+1305,2025-05-02,Schneider Fabrik,NRW,Gadget X,Components,82,83.73,6865.86,3714.76,2025-05-10,Cancelled
+1389,2025/06/04,Bauer Tech,Hamburg,Control Board,Components,166,27.29,4530.14,1892.03,2025-06-08,Cancelled
+1438,2025-01-05,Braun Logistik,Bavaria,Widget Pro,Accessories,116,125.28,14532.48,8244.91,,Returned
+1444,Jun 10 2025,Wagner Ltd,Baden-Württemberg,Widget Pro,Accessories,160,84.08,13452.8,8284.87,2025-06-17,Delivered
+1322,05-02-2025,Fischer Corp,NRW,Power Module,Accessories,145,43.26,6272.7,3789.32,,Returned
+1020,07/05/2025,Braun Logistik,Baden-Württemberg,Widget Pro,Accessories,91,101.68,9252.88,3801.58,2025-05-09,Shipped
+1574,Mar 20 2025,Weber Industries,BADEN-WÜRTTEMBERG,Widget Pro,Electronics,147,134.4,19756.8,13370.38,2025-03-27,Delivered
+1386,24-01-2025,Braun Logistik,NRW,Sensor Unit,Accessories,10,92.49,924.9,473.88,2025-01-29,Delivered
+1302,04-15-2025,Wolf Components,NRW,Sensor Unit,Components,139,49.35,6859.65,3037.84,2025-04-24,Cancelled
+1496,2025/05/01,Braun Logistik,NRW,Cable Kit,Components,31,6.92,214.52,73.41,2025-05-03,Delivered
+1259,30/06/2025,Bauer Tech,Hessen,Control Board,Accessories,83,101.4,8416.2,4013.79,2025-07-03,Delivered
+1215,04-01-2025,Schneider Fabrik,Bavaria,Control Board,Industrial,62,84.75,5254.5,2678.04,2025-01-07,Shipped
+1571,2025-04-05,Koch Solutions,Saxony,Power Module,Industrial,80,142.99,11439.2,4519.64,2025-04-13,Returned
+1285,15/05/2025,Müller GmbH,Saxony,Control Board,Accessories,130,135.68,17638.4,6123.39,2025-05-22,Cancelled
+1636,Feb 08 2025,Bauer Tech,HESSEN,Gadget X,Components,185,60.58,11207.3,5770.82,2025-02-17,Returned
+1064,08.01.2025,Richter Systems,Hessen,Sensor Unit,Industrial,193,91.97,17750.21,6763.55,2025-01-09,Cancelled
+1563,2025/01/29,Müller GmbH,Hamburg,Widget Pro,Accessories,81,24.8,2008.8,1206.93,2025-02-03,Pending
+1092,2025/06/20,,Baden-Württemberg,Sensor Unit,Components,170,19.97,3394.9,1380.37,2025-06-26,Delivered
+1109,16/04/2025,Fischer Corp,Saxony,Sensor Unit,Electronics,59,131.88,7780.92,3139.2,2025-04-22,Delivered
+1988,2025-01-09,Wagner Ltd,Berlin,Power Module,Electronics,63,87.58,5517.54,2936.07,,Shipped
+1754,2025/05/23,Schmidt AG,Berlin,Control Board,Accessories,88,9.03,794.64,547.91,2025-06-01,Returned
+1101,2025/06/13,Bauer Tech,Berlin,Gadget X,Electronics,171,66.01,11287.71,5111.12,2025-06-23,Shipped
+1473,20.03.2025,Wagner Ltd,Hamburg,Gadget X,Accessories,126,84.0,10584.0,5878.49,,Shipped
+1957,2025/06/22,Fischer Corp,Hamburg,Widget Pro,Accessories,100,57.34,5734.0,2719.6,2025-06-30,Pending
+1738,17.02.2025,Schmidt AG,NRW,Gadget X,INDUSTRIAL,169,29.71,5020.99,2065.7,2025-02-22,Cancelled
+1250,2025/01/18,  SCHMIDT AG  ,hamburg,Widget Pro,Industrial,92,113.85,10474.2,4961.09,2025-01-22,Pending
+1721,27/05/2025,Müller GmbH,Bavaria,Widget Pro,Industrial,93,44.24,4114.32,2528.22,2025-05-31,Cancelled
+1909,01-13-2025,Meyer Transport,Hessen,Power Module,ACCESSORIES,195,140.26,27350.7,15968.75,2025-01-14,Returned
+1195,17/02/2025,  WOLF COMPONENTS  ,Saxony,Control Board,INDUSTRIAL,31,74.35,2304.85,888.59,2025-02-18,Delivered
+1007,09.06.2025,Schäfer Elektro,NRW,Sensor Unit,Components,102,38.76,3953.52,2112.73,2025-06-18,Pending
+1057,2025/01/15,Braun Logistik,Hamburg,Control Board,Electronics,130,23.58,3065.4,1204.54,2025-01-18,Returned
+1129,2025/02/17,Braun Logistik,Bavaria,Cable Kit,Accessories,20,9.35,187.0,104.96,2025-02-22,Pending
+1243,05-04-2025,Wagner Ltd,Bavaria,Power Module,Components,-148,52.23,-7730.04,0.0,,Returned
+1758,01-15-2025,Wolf Components,Hamburg,Power Module,Components,162,94.45,15300.9,10384.53,2025-01-16,Shipped
+1489,2025-02-27,Hoffmann KG,Hamburg,Widget Pro,COMPONENTS,136,64.09,8716.24,6067.02,2025-02-28,Returned
+1538,2025-01-05,Hoffmann KG,Berlin,Power Module,Electronics,125,19.8,2475.0,774.67,2025-01-15,Shipped
+1236,22/06/2025,Wolf Components,Baden-Württemberg,Gadget X,Industrial,100,72.51,7251.0,4330.19,2025-06-26,Delivered
+1515,2025/06/30,Keller Handels,Bavaria,Cable Kit,Components,74,125.11,9258.14,4865.97,2025-07-01,Delivered
+1581,05-23-2025,Keller Handels,Berlin,Sensor Unit,Electronics,65,16.86,1095.9,753.54,2025-05-28,Delivered
+1393,26.05.2025,Meyer Transport,Hessen,Widget Pro,Industrial,56,126.94,7108.64,2485.67,2025-06-05,Pending
+1781,2025-05-25,Schmidt AG,Saxony,Gadget X,Accessories,152,116.91,17770.32,7742.12,2025-06-01,Returned
+1869,2025-04-20,Schäfer Elektro,Hessen,Cable Kit,Industrial,114,15.54,1771.56,763.47,2025-04-29,Pending
+1985,03-13-2025,  SCHNEIDER FABRIK  ,Baden-Württemberg,Gadget X,ACCESSORIES,39,139.68,5447.52,3256.25,2025-03-23,Delivered
+1813,04.06.2025,Schäfer Elektro,hessen,Power Module,Industrial,164,115.57,18953.48,12027.48,,Cancelled
+1049,Jun 21 2025,Weber Industries,NRW,Sensor Unit,Industrial,34,81.5,2771.0,859.96,2025-06-27,Cancelled
+1127,2025/02/21,Koch Solutions,NRW,Cable Kit,COMPONENTS,137,66.8,9151.6,2760.21,2025-03-02,Shipped
+1616,May 16 2025,,Berlin,Widget Pro,Accessories,97,56.55,5485.35,2709.63,2025-05-18,Cancelled
+1924,2025-01-27,  RICHTER SYSTEMS  ,Berlin,Power Module,Industrial,48,105.67,5072.16,2461.0,2025-02-05,Returned
+1014,2025-05-28,Richter Systems,Baden-Württemberg,Power Module,Electronics,141,88.33,12454.53,6566.51,2025-06-04,Delivered
+1600,2025-05-07,Schmidt AG,NRW,Power Module,Industrial,42,54.56,2291.52,1241.64,2025-05-12,Cancelled
+1602,2025-04-17,  BAUER TECH  ,Hamburg,Cable Kit,Electronics,121,41.35,5003.35,1934.97,,Returned
+1670,06-27-2025,Richter Systems,Berlin,Sensor Unit,Components,139,76.82,10677.98,4588.32,2025-07-02,Returned
+1750,Jun 23 2025,Richter Systems,Hamburg,Power Module,Accessories,19,145.23,2759.37,1597.47,,Cancelled
+1334,02.03.2025,Fischer Corp,Hessen,Gadget X,Accessories,71,124.58,8845.18,3806.43,2025-03-04,Cancelled
+1345,28/03/2025,Weber Industries,Baden-Württemberg,Cable Kit,ELECTRONICS,92,84.17,7743.64,3672.92,2025-04-01,Pending
+1474,May 31 2025,Fischer Corp,Saxony,Gadget X,Accessories,79,85.56,6759.24,2402.19,2025-06-06,Shipped
+1038,03-25-2025,Hoffmann KG,Baden-Württemberg,Cable Kit,Industrial,194,56.56,10972.64,7261.09,2025-03-31,Delivered
+1241,28.06.2025,Müller GmbH,Baden-Württemberg,Control Board,Electronics,16,86.34,1381.44,418.12,2025-07-08,Shipped
+1350,Jan 14 2025,Müller GmbH,Berlin,Widget Pro,Electronics,67,78.6,5266.2,1852.5,2025-01-16,Pending
+1706,05.02.2025,Schäfer Elektro,Baden-Württemberg,Gadget X,ACCESSORIES,101,148.27,14975.27,10392.14,2025-02-11,Shipped
+1948,22/01/2025,Fischer Corp,Berlin,Control Board,Electronics,18,78.08,1405.44,600.61,2025-01-26,Returned
+1395,2025-06-13,Wagner Ltd,Hamburg,Control Board,Accessories,40,119.75,4790.0,3185.23,2025-06-21,Returned
+1396,22-05-2025,Müller GmbH,Hamburg,Gadget X,Industrial,17,103.25,1755.25,590.96,2025-05-23,Pending
+1359,01-17-2025,Schmidt AG,Bavaria,Gadget X,COMPONENTS,68,114.65,7796.2,5052.94,2025-01-26,Shipped
+1871,Mar 24 2025,Müller GmbH,Baden-Württemberg,Control Board,Accessories,80,57.57,4605.6,1768.62,2025-03-27,Shipped
+1904,Jun 29 2025,Koch Solutions,Hamburg,Sensor Unit,Industrial,-30,59.66,-1789.8,0.0,2025-07-07,Delivered
+1842,2025-06-22,Wagner Ltd,Hessen,Gadget X,Components,156,107.31,16740.36,8648.94,2025-06-24,Returned
+1347,20.02.2025,Fischer Corp,Hessen,Control Board,Components,172,13.24,2277.28,1494.7,2025-02-27,Pending
+1039,25-06-2025,Hoffmann KG,Hamburg,Power Module,Electronics,84,71.42,5999.28,2370.07,,Returned
+1878,Feb 12 2025,Keller Handels,Hamburg,Power Module,Accessories,126,65.49,8251.74,5262.44,,Delivered
+1724,16/02/2025,Koch Solutions,HAMBURG,Sensor Unit,Components,140,71.69,10036.6,3283.59,2025-02-19,Shipped
+1900,02-05-2025,Hoffmann KG,Saxony,Widget Pro,Components,165,42.05,6938.25,3488.04,2025-05-06,Pending
+1150,2025/04/26,Schmidt AG,Hessen,Control Board,Accessories,184,5.76,1059.84,712.22,2025-05-05,Returned
+1519,23/01/2025,Schneider Fabrik,NRW,Cable Kit,Industrial,148,107.54,15915.92,7702.51,2025-02-02,Delivered
+1859,05-26-2025,Meyer Transport,Hessen,Power Module,Accessories,180,93.27,16788.6,7253.82,2025-05-29,Delivered
+1235,02.06.2025,Schäfer Elektro,Berlin,Power Module,Accessories,176,109.12,19205.12,13443.19,2025-06-04,Returned
+1034,May 08 2025,Weber Industries,NRW,Gadget X,Industrial,58,36.86,2137.88,1375.68,2025-05-14,Delivered
+1746,20/06/2025,Braun Logistik,BERLIN,Sensor Unit,Accessories,136,140.92,19165.12,8769.91,2025-06-28,Cancelled
+1488,18.01.2025,,NRW,Widget Pro,Electronics,122,45.13,5505.86,3451.55,2025-01-26,Pending
+1425,03-04-2025,Schäfer Elektro,Hessen,Sensor Unit,Components,186,136.84,25452.24,12685.61,2025-04-09,Returned
+1516,2025-02-12,Meyer Transport,Baden-Württemberg,Sensor Unit,Industrial,118,89.31,10538.58,5314.24,,Returned
+1122,04.04.2025,Fischer Corp,Bavaria,Widget Pro,Industrial,11,103.68,1140.48,470.25,2025-04-07,Cancelled
+1663,2025-03-13,Richter Systems,Saxony,Sensor Unit,Components,74,117.4,8687.6,5187.8,2025-03-14,Pending
+1959,Jun 17 2025,Koch Solutions,Bavaria,Cable Kit,Industrial,120,107.96,12955.2,4386.54,2025-06-18,Delivered
+1296,14.01.2025,Hoffmann KG,NRW,Gadget X,Electronics,20,76.09,1521.8,606.83,2025-01-22,Shipped
+1630,07.02.2025,  MÜLLER GMBH  ,Hessen,Sensor Unit,Components,127,142.35,18078.45,7334.54,2025-02-10,Returned
+1576,2025/03/15,Wagner Ltd,Baden-Württemberg,Control Board,Accessories,35,136.74,4785.9,2304.51,2025-03-22,Returned
+1297,12.06.2025,Koch Solutions,Hessen,Gadget X,Electronics,182,18.46,3359.72,1056.7,2025-06-14,Delivered
+1299,2025/03/02,Weber Industries,NRW,Power Module,Components,127,64.13,8144.51,4686.46,2025-03-04,Returned
+1537,Jun 27 2025,Weber Industries,Berlin,Cable Kit,Components,198,95.92,18992.16,11499.83,2025-07-01,Cancelled
+1817,2025-04-10,Koch Solutions,Berlin,Cable Kit,ACCESSORIES,196,88.26,17298.96,11373.71,,Pending
+1694,20.01.2025,Schneider Fabrik,Hamburg,Widget Pro,ACCESSORIES,92,59.52,5475.84,1905.53,2025-01-28,Returned
+1271,Apr 23 2025,Weber Industries,Hessen,Widget Pro,Industrial,88,77.69,6836.72,3548.3,2025-04-30,Shipped
+1036,12.06.2025,Wagner Ltd,Hamburg,Widget Pro,Electronics,157,99.09,15557.13,9639.75,,Pending
+1170,May 26 2025,Schmidt AG,Berlin,Gadget X,Electronics,172,135.32,23275.04,8250.2,2025-06-02,Returned
+1214,2025/02/01,Fischer Corp,Hessen,Power Module,Components,70,28.03,1962.1,686.6,2025-02-05,Delivered
+1535,20-06-2025,Schäfer Elektro,Hessen,Sensor Unit,Components,9,26.35,237.15,128.76,2025-06-28,Cancelled
+1826,18/01/2025,Hoffmann KG,Hamburg,Cable Kit,Components,11,146.04,1606.44,762.89,2025-01-27,Pending
+1067,2025-01-16,Hoffmann KG,Bavaria,Sensor Unit,Electronics,148,143.68,21264.64,8638.2,2025-01-17,Pending
+1995,Mar 28 2025,Weber Industries,Hamburg,Cable Kit,Electronics,153,124.35,19025.55,10639.09,2025-04-01,Returned
+1660,2025-01-07,Keller Handels,Saxony,Gadget X,Electronics,53,137.86,7306.58,4061.4,2025-01-09,Cancelled
+1391,18-05-2025,Meyer Transport,Hessen,Gadget X,Industrial,117,149.78,17524.26,6809.93,2025-05-21,Cancelled
+1198,2025/01/12,Schmidt AG,Baden-Württemberg,Gadget X,Components,192,143.81,27611.52,11825.53,2025-01-22,Delivered
+1757,21-04-2025,Weber Industries,Berlin,Widget Pro,Components,172,15.79,2715.88,1638.25,2025-04-27,Delivered
+1727,15.02.2025,Richter Systems,Berlin,Power Module,Components,127,75.72,9616.44,4769.18,2025-02-19,Shipped
+1773,14-03-2025,Meyer Transport,Hamburg,Control Board,Components,13,33.14,430.82,190.45,2025-03-19,Cancelled
+1703,Feb 08 2025,Meyer Transport,Hamburg,Gadget X,Electronics,140,76.3,10682.0,6237.37,2025-02-13,Cancelled
+1961,Feb 05 2025,Meyer Transport,Saxony,Gadget X,Industrial,180,140.5,25290.0,10502.32,,Pending
+1798,12/04/2025,Wagner Ltd,Baden-Württemberg,Power Module,Components,78,145.78,11370.84,5827.18,2025-04-16,Returned
+1260,12.04.2025,Schmidt AG,Baden-Württemberg,Control Board,Accessories,91,44.73,4070.43,2274.3,2025-04-18,Returned
+1990,13/01/2025,Weber Industries,Saxony,Sensor Unit,Components,7,48.95,342.65,153.13,2025-01-18,Delivered
+1103,18.01.2025,Braun Logistik,baden-württemberg,Cable Kit,Accessories,92,45.42,4178.64,2055.33,2025-01-22,Pending
+1946,28.02.2025,Hoffmann KG,Bavaria,Gadget X,Industrial,92,66.85,6150.2,2579.2,,Cancelled
+1997,2025/05/03,Wagner Ltd,Hessen,Power Module,Electronics,19,122.15,2320.85,1322.06,2025-05-06,Shipped
+1933,Jun 05 2025,Bauer Tech,Baden-Württemberg,Control Board,Industrial,143,127.03,18165.29,10613.84,2025-06-07,Delivered
+1282,15.06.2025,Koch Solutions,Hessen,Cable Kit,Electronics,130,40.61,5279.3,3603.62,2025-06-17,Returned
+1966,05-09-2025,Schmidt AG,Hessen,Widget Pro,Accessories,120,34.68,4161.6,2871.99,2025-05-10,Cancelled
+1726,01-26-2025,Schäfer Elektro,Baden-Württemberg,Cable Kit,Electronics,154,144.7,22283.8,11471.27,2025-01-28,Returned
+1283,29-06-2025,Meyer Transport,Bavaria,Control Board,Industrial,135,143.96,19434.6,11432.82,2025-07-04,Delivered
+1617,2025-01-03,Richter Systems,Hessen,Power Module,Industrial,27,12.68,342.36,139.29,2025-01-12,Cancelled
+1184,20-02-2025,Bauer Tech,NRW,Sensor Unit,Components,25,97.42,2435.5,903.98,2025-02-23,Pending
+1186,May 02 2025,,Baden-Württemberg,Gadget X,COMPONENTS,99,74.82,7407.18,3859.0,2025-05-08,Shipped
+1295,23/04/2025,Bauer Tech,NRW,Cable Kit,Accessories,200,61.02,12204.0,7140.24,2025-05-03,Delivered
+1032,2025-02-28,Schneider Fabrik,baden-württemberg,Gadget X,Accessories,38,71.12,2702.56,1096.26,2025-03-07,Cancelled
+1281,23.06.2025,Schneider Fabrik,Hessen,Gadget X,Electronics,112,149.75,16772.0,6283.91,2025-06-30,Pending
+1714,03.01.2025,Weber Industries,Berlin,Cable Kit,Industrial,10,140.14,1401.4,892.89,2025-01-05,Pending
+1973,02-02-2025,Keller Handels,Saxony,Power Module,Industrial,53,57.15,3028.95,1913.63,2025-02-12,Pending
+1714,03.01.2025,Weber Industries,Berlin,Cable Kit,Industrial,10,140.14,1401.4,892.89,2025-01-05,Pending
+1361,2025/04/21,  KOCH SOLUTIONS  ,Berlin,Gadget X,Components,144,58.83,8471.52,5162.75,,Pending
+1770,22.02.2025,Müller GmbH,Hessen,Gadget X,Industrial,177,114.78,20316.06,9629.14,2025-03-01,Delivered
+1163,21.02.2025,Keller Handels,Berlin,Widget Pro,Electronics,62,77.67,4815.54,2486.14,2025-02-25,Returned
+1303,03-23-2025,Hoffmann KG,Hessen,Power Module,Industrial,173,41.79,7229.67,4477.34,2025-03-31,Shipped
+1568,24.02.2025,Müller GmbH,Berlin,Cable Kit,Components,76,37.22,2828.72,904.51,2025-02-26,Delivered
+1898,2025-04-07,Schmidt AG,Bavaria,Widget Pro,Accessories,121,70.5,8530.5,3311.02,2025-04-11,Pending
+1848,05-02-2025,Wolf Components,Hessen,Gadget X,Electronics,37,18.59,687.83,213.69,2025-05-10,Returned
+1824,02/03/2025,Wolf Components,Baden-Württemberg,Control Board,Electronics,62,23.26,1442.12,1007.54,2025-03-12,Shipped
+1111,02-24-2025,  MEYER TRANSPORT  ,Baden-Württemberg,Control Board,Industrial,116,100.79,11691.64,4657.56,,Delivered
+1675,18/01/2025,Fischer Corp,Hessen,Sensor Unit,Industrial,47,139.01,6533.47,3837.57,,Pending
+1728,2025/05/08,Schäfer Elektro,Berlin,Control Board,Electronics,169,120.81,20416.89,12284.65,2025-05-17,Shipped
+1418,01-20-2025,,Hessen,Widget Pro,COMPONENTS,145,46.15,6691.75,2325.17,2025-01-29,Shipped
+1311,08.02.2025,Wagner Ltd,NRW,Cable Kit,Components,82,119.32,9784.24,3652.82,2025-02-14,Delivered
+1452,29/04/2025,Wagner Ltd,Saxony,Cable Kit,Industrial,7,124.99,874.93,576.92,2025-04-30,Shipped
+1338,17/04/2025,Wolf Components,NRW,Widget Pro,Electronics,166,33.35,5536.1,2701.37,2025-04-27,Cancelled
+1108,2025/02/18,Koch Solutions,Saxony,Gadget X,Industrial,62,12.95,802.9,467.66,2025-02-19,Cancelled
+1521,2025-03-14,Fischer Corp,berlin,Widget Pro,Industrial,68,39.91,2713.88,1447.27,2025-03-20,Cancelled
+1585,09/01/2025,Schmidt AG,Bavaria,Widget Pro,Industrial,57,11.3,644.1,234.46,2025-01-14,Delivered
+1153,2025/05/22,Koch Solutions,Hessen,Gadget X,Components,66,104.6,6903.6,4138.95,2025-05-29,Cancelled
+1542,Jun 07 2025,Hoffmann KG,Baden-Württemberg,Widget Pro,Electronics,42,95.79,4023.18,2155.86,2025-06-13,Shipped
+1866,08-02-2025,Bauer Tech,NRW,Widget Pro,Industrial,113,57.67,6516.71,2947.88,2025-02-15,Delivered
+1494,2025-01-11,Müller GmbH,NRW,Widget Pro,Accessories,89,34.42,3063.38,1624.09,2025-01-18,Pending
+1143,2025/02/27,Meyer Transport,Hamburg,Power Module,Electronics,120,53.66,6439.2,4474.04,2025-03-05,Shipped
+1532,19.06.2025,Schneider Fabrik,Hamburg,Power Module,Industrial,146,36.65,5350.9,1696.47,2025-06-23,Pending
+1445,05-23-2025,Schneider Fabrik,bavaria,Widget Pro,Electronics,165,94.62,15612.3,5374.02,2025-06-02,Returned
+1555,06-07-2025,Richter Systems,Bavaria,Cable Kit,Industrial,198,104.39,20669.22,9979.35,,Shipped
+1188,13/01/2025,Wagner Ltd,Berlin,Cable Kit,ELECTRONICS,162,116.9,18937.8,10480.5,2025-01-15,Delivered
+1274,18.05.2025,Schäfer Elektro,Baden-Württemberg,Control Board,Accessories,173,93.4,16158.2,7793.16,2025-05-24,Returned
+1279,16.04.2025,Bauer Tech,Hamburg,Sensor Unit,Accessories,149,31.18,4645.82,2053.85,,Shipped
+1348,02.04.2025,  WAGNER LTD  ,Saxony,Power Module,Components,138,27.83,3840.54,1807.15,,Cancelled
+1766,Jun 28 2025,Fischer Corp,Hamburg,Control Board,ACCESSORIES,90,24.28,2185.2,1358.54,2025-07-02,Shipped
+1569,Mar 07 2025,Schmidt AG,Baden-Württemberg,Gadget X,Industrial,62,82.18,5095.16,2240.98,2025-03-16,Returned
+1016,2025-03-22,Schneider Fabrik,BADEN-WÜRTTEMBERG,Control Board,Accessories,158,76.62,12105.96,7983.27,2025-03-31,Delivered
+1085,07-02-2025,Wagner Ltd,NRW,Power Module,Components,95,52.37,4975.15,2045.15,2025-02-08,Shipped
+1095,Apr 26 2025,Koch Solutions,Saxony,Widget Pro,Components,43,72.6,3121.8,1526.41,2025-05-06,Pending
+1191,2025-05-08,Wagner Ltd,Hessen,Sensor Unit,Electronics,126,75.61,9526.86,4550.76,,Pending
+1764,Feb 21 2025,Wagner Ltd,Bavaria,Gadget X,ACCESSORIES,121,48.41,5857.61,3928.9,2025-02-24,Returned
+1723,2025/01/22,Wolf Components,Berlin,Gadget X,Electronics,-44,25.7,-1130.8,0.0,2025-01-29,Returned
+1918,01-28-2025,Schäfer Elektro,Bavaria,Sensor Unit,Accessories,29,113.95,3304.55,1393.12,2025-01-30,Returned
+1964,2025/05/09,Schmidt AG,NRW,Cable Kit,Accessories,200,48.17,9634.0,5113.23,2025-05-13,Returned
+1125,Jun 30 2025,Wagner Ltd,Bavaria,Power Module,Industrial,124,147.73,18318.52,8955.84,2025-07-01,Cancelled
+1196,17.02.2025,Schneider Fabrik,Berlin,Widget Pro,Industrial,132,145.23,19170.36,12064.38,2025-02-27,Delivered
+1981,2025-03-29,  MEYER TRANSPORT  ,Saxony,Control Board,Electronics,194,35.86,6956.84,4487.52,2025-04-01,Delivered
+1251,11-01-2025,Hoffmann KG,Saxony,Cable Kit,Electronics,80,54.25,4340.0,2551.21,2025-01-16,Returned
+1938,31-01-2025,Hoffmann KG,Baden-Württemberg,Power Module,Accessories,-68,140.79,-9573.72,0.0,2025-02-04,Shipped
+1862,01.05.2025,Bauer Tech,NRW,Gadget X,Industrial,161,125.39,20187.79,11349.86,2025-05-06,Returned
+1487,2025-02-17,  BAUER TECH  ,Saxony,Control Board,Accessories,85,11.18,950.3,348.16,2025-02-19,Shipped
+1530,02-28-2025,Hoffmann KG,Berlin,Sensor Unit,Components,188,32.6,6128.8,2809.97,2025-03-09,Delivered
+1372,03-12-2025,Fischer Corp,nrw,Widget Pro,Industrial,19,108.44,2060.36,1361.34,2025-03-16,Delivered
+1683,22.06.2025,Richter Systems,Saxony,Widget Pro,Industrial,50,100.25,5012.5,1564.21,2025-06-28,Cancelled
+1301,07-02-2025,Richter Systems,Berlin,Widget Pro,Accessories,69,77.27,5331.63,2097.58,2025-02-14,Shipped
+1962,2025/06/15,Hoffmann KG,Bavaria,Cable Kit,Components,84,113.61,9543.24,3924.55,2025-06-20,Pending
+1225,05/01/2025,Koch Solutions,Hamburg,Widget Pro,Industrial,24,145.33,3487.92,1272.1,2025-01-12,Returned
+1005,12-05-2025,Fischer Corp,Hamburg,Power Module,Components,157,85.34,13398.38,5200.48,2025-05-16,Returned
+1328,20-02-2025,Schneider Fabrik,NRW,Power Module,Electronics,88,121.3,10674.4,4450.13,2025-02-22,Returned
+1717,03-31-2025,Bauer Tech,Hamburg,Sensor Unit,Industrial,31,59.82,1854.42,1255.11,2025-04-01,Cancelled
+1380,Jun 29 2025,Schneider Fabrik,Berlin,Sensor Unit,Industrial,42,102.69,4312.98,2670.87,2025-07-05,Cancelled
+1802,2025-02-13,Fischer Corp,Berlin,Gadget X,COMPONENTS,84,30.14,2531.76,959.04,2025-02-18,Cancelled
+1065,02-02-2025,Hoffmann KG,Hessen,Power Module,Electronics,128,67.04,8581.12,3811.59,2025-02-07,Cancelled
+1605,21-06-2025,Schneider Fabrik,Bavaria,Control Board,Industrial,119,52.04,6192.76,3394.4,2025-06-27,Shipped
+1229,Apr 26 2025,Hoffmann KG,Hessen,Sensor Unit,Industrial,58,27.52,1596.16,1049.32,,Returned
+1224,2025/05/02,Wagner Ltd,Saxony,Widget Pro,Accessories,72,42.3,3045.6,1761.87,2025-05-05,Pending
+1827,03.05.2025,Schmidt AG,Baden-Württemberg,Cable Kit,Components,123,48.76,5997.48,3691.0,,Shipped
+1929,2025-02-15,Richter Systems,Hamburg,Control Board,Components,141,44.22,6235.02,3568.51,2025-02-22,Cancelled
+1932,2025/05/04,Bauer Tech,Berlin,Sensor Unit,Components,26,67.48,1754.48,1221.54,2025-05-14,Returned
+1935,Jun 25 2025,Richter Systems,NRW,Gadget X,Industrial,186,139.39,25926.54,12531.57,2025-07-05,Cancelled
+1712,2025/04/23,Wolf Components,Hamburg,Gadget X,INDUSTRIAL,103,36.49,3758.47,1214.3,2025-04-25,Returned
+1341,05/06/2025,  HOFFMANN KG  ,Hessen,Control Board,Industrial,163,33.45,5452.35,3079.33,2025-06-08,Shipped
+1573,2025-06-14,Braun Logistik,Hamburg,Control Board,Accessories,40,144.82,5792.8,3751.33,2025-06-18,Shipped
+1583,06-30-2025,Wagner Ltd,Baden-Württemberg,Widget Pro,Accessories,188,39.98,7516.24,2465.43,2025-07-10,Delivered
+1240,2025-05-04,Fischer Corp,Bavaria,Widget Pro,Electronics,66,104.08,6869.28,4239.09,2025-05-14,Delivered
+1910,Apr 18 2025,Keller Handels,nrw,Sensor Unit,Electronics,86,39.91,3432.26,2016.17,2025-04-20,Cancelled
+1560,Jan 25 2025,Braun Logistik,Hessen,Control Board,Components,152,148.01,22497.52,13210.25,2025-01-26,Returned
+1831,01-28-2025,  WAGNER LTD  ,Hessen,Cable Kit,Components,89,134.87,12003.43,5114.79,2025-02-03,Shipped
+1316,Feb 03 2025,Schmidt AG,Hamburg,Control Board,COMPONENTS,116,87.18,10112.88,4423.32,2025-02-07,Returned
+1190,14.06.2025,Richter Systems,Berlin,Gadget X,Electronics,130,146.17,19002.1,10282.89,2025-06-18,Returned
+1136,2025/03/09,Schneider Fabrik,Saxony,Control Board,Electronics,14,148.33,2076.62,1020.14,2025-03-12,Returned
+1652,Mar 26 2025,,Hessen,Control Board,Accessories,-30,103.56,-3106.8,0.0,2025-03-27,Delivered
+1044,06-07-2025,Müller GmbH,Hessen,Widget Pro,Electronics,146,110.06,16068.76,9019.71,2025-06-12,Pending
+1375,27.03.2025,Schäfer Elektro,Saxony,Sensor Unit,Industrial,74,21.11,1562.14,535.4,2025-04-04,Pending
+1290,2025/03/24,Schneider Fabrik,Baden-Württemberg,Sensor Unit,Electronics,82,148.46,12173.72,6736.73,2025-03-31,Returned
+1342,Apr 11 2025,Meyer Transport,Baden-Württemberg,Cable Kit,Components,-65,45.9,-2983.5,0.0,2025-04-18,Delivered
+1513,25/06/2025,Wolf Components,Baden-Württemberg,Control Board,Accessories,58,45.88,2661.04,1708.45,,Shipped
+1455,20.01.2025,Meyer Transport,Berlin,Sensor Unit,Components,141,74.41,10491.81,3704.01,2025-01-30,Delivered
+1287,09/06/2025,Richter Systems,NRW,Sensor Unit,Accessories,43,146.05,6280.15,2876.49,,Pending
+1756,12-02-2025,Braun Logistik,NRW,Power Module,Accessories,122,78.73,9605.06,4291.59,2025-02-22,Pending
+1087,04/03/2025,Wolf Components,NRW,Control Board,Components,166,90.47,15018.02,10303.93,2025-03-09,Cancelled
+1744,17/02/2025,  FISCHER CORP  ,Hamburg,Power Module,Components,120,136.61,16393.2,7825.19,2025-02-22,Returned
+1286,05-18-2025,Schmidt AG,Bavaria,Gadget X,Components,107,33.49,3583.43,1101.78,2025-05-27,Returned
+1040,25-02-2025,Braun Logistik,hessen,Widget Pro,Industrial,55,131.62,7239.1,2579.67,2025-03-06,Cancelled
+1223,03.05.2025,Meyer Transport,NRW,Widget Pro,Electronics,42,144.99,6089.58,3089.78,2025-05-12,Cancelled
+1226,Apr 07 2025,Richter Systems,Baden-Württemberg,Gadget X,Industrial,12,9.45,113.4,45.9,2025-04-17,Shipped
+1655,19-01-2025,Weber Industries,NRW,Widget Pro,Industrial,169,109.55,18513.95,11445.73,2025-01-29,Returned
+1376,03-11-2025,Hoffmann KG,NRW,Widget Pro,Components,54,90.35,4878.9,1942.53,2025-03-20,Delivered
+1501,23/04/2025,Richter Systems,Hamburg,Sensor Unit,Components,187,134.65,25179.55,15650.29,2025-04-24,Shipped
+1916,Feb 19 2025,Bauer Tech,Baden-Württemberg,Widget Pro,Electronics,152,24.21,3679.92,1544.3,2025-02-21,Delivered
+1707,May 18 2025,,Bavaria,Gadget X,Industrial,124,47.67,5911.08,3179.82,2025-05-24,Returned
+1451,2025/03/16,Schmidt AG,Berlin,Cable Kit,Components,52,54.21,2818.92,1547.77,2025-03-26,Shipped
+1077,2025/05/11,Wagner Ltd,Hamburg,Power Module,Electronics,174,19.26,3351.24,1756.58,2025-05-18,Shipped
+1603,2025-06-30,Koch Solutions,NRW,Sensor Unit,Industrial,7,47.2,330.4,108.13,2025-07-06,Returned
+1212,03-11-2025,Schäfer Elektro,Saxony,Control Board,Electronics,126,143.19,18041.94,8116.46,,Returned
+1197,May 16 2025,Schneider Fabrik,Hessen,Widget Pro,Accessories,45,146.48,6591.6,4524.36,2025-05-19,Returned
+1800,28.04.2025,,Saxony,Power Module,Industrial,93,149.71,13923.03,6400.15,,Cancelled
+1618,22-03-2025,Richter Systems,Berlin,Sensor Unit,Components,177,26.15,4628.55,1692.97,2025-03-26,Shipped
+1914,2025-03-19,Wolf Components,SAXONY,Gadget X,Accessories,135,64.52,8710.2,4302.53,,Returned
+1351,05.06.2025,,Hamburg,Control Board,Industrial,34,114.47,3891.98,1455.66,,Cancelled
+1594,31/05/2025,Wagner Ltd,Hamburg,Power Module,Industrial,65,19.21,1248.65,691.53,2025-06-05,Returned
+1333,26.03.2025,Fischer Corp,Berlin,Gadget X,Industrial,10,72.31,723.1,251.77,2025-03-29,Cancelled
+1803,01-09-2025,Richter Systems,NRW,Control Board,Components,19,78.14,1484.66,665.7,2025-01-11,Returned
+1210,04-20-2025,Hoffmann KG,Saxony,Sensor Unit,Components,15,31.09,466.35,196.64,2025-04-22,Shipped
+1559,Jun 23 2025,Wagner Ltd,Saxony,Control Board,Accessories,67,146.23,9797.41,6225.25,2025-06-24,Returned
+1780,2025-01-26,Braun Logistik,Berlin,Sensor Unit,Components,68,61.43,4177.24,1981.63,2025-01-30,Cancelled
+1876,17.03.2025,Richter Systems,Hessen,Gadget X,Components,64,13.16,842.24,404.47,2025-03-27,Shipped
+1887,2025/01/21,Schmidt AG,Hamburg,Control Board,Industrial,180,99.51,17911.8,6690.54,2025-01-30,Delivered
+1774,05-03-2025,Fischer Corp,Berlin,Power Module,Electronics,79,75.84,5991.36,2978.42,2025-05-05,Pending
+1293,2025/03/13,Fischer Corp,Berlin,Widget Pro,Components,30,76.41,2292.3,1348.27,2025-03-21,Shipped
+1410,2025/04/03,Wagner Ltd,NRW,Control Board,Accessories,198,131.48,26033.04,11243.49,2025-04-07,Cancelled
+1631,2025/06/28,Schäfer Elektro,NRW,Widget Pro,Industrial,40,98.22,3928.8,1724.27,2025-07-04,Returned
+1816,22-05-2025,Wolf Components,Baden-Württemberg,Cable Kit,Accessories,117,47.76,5587.92,3804.76,2025-06-01,Cancelled
+1206,Mar 25 2025,Schneider Fabrik,Hessen,Power Module,Accessories,-15,16.72,-250.8,0.0,2025-04-04,Pending
+1119,04-02-2025,Wagner Ltd,Saxony,Control Board,Components,99,38.65,3826.35,1830.37,2025-04-09,Delivered
+1368,23/02/2025,Müller GmbH,Bavaria,Control Board,COMPONENTS,44,46.37,2040.28,1317.98,2025-03-05,Returned
+1495,07.02.2025,Fischer Corp,Berlin,Power Module,Industrial,186,56.11,10436.46,6369.96,2025-02-16,Delivered
+1378,06.04.2025,Schäfer Elektro,Berlin,Control Board,Accessories,153,127.0,19431.0,9724.94,2025-04-16,Delivered
+1982,2025/06/20,Schmidt AG,Hessen,Gadget X,Electronics,128,135.16,17300.48,11696.28,2025-06-27,Delivered
+1320,02-24-2025,Weber Industries,Bavaria,Control Board,Electronics,106,102.13,10825.78,4032.5,2025-02-25,Delivered
+1558,2025-01-01,Meyer Transport,Hessen,Widget Pro,Industrial,44,112.41,4946.04,2093.78,2025-01-02,Shipped
+1066,02-28-2025,Wagner Ltd,Baden-Württemberg,Power Module,Electronics,81,86.72,7024.32,2351.93,,Delivered
+1815,2025-05-21,Richter Systems,bavaria,Widget Pro,COMPONENTS,16,19.17,306.72,151.22,2025-05-25,Pending
+1837,22/02/2025,Meyer Transport,Bavaria,Gadget X,Industrial,47,125.47,5897.09,3164.42,2025-02-24,Cancelled
+1258,09-01-2025,Braun Logistik,NRW,Power Module,Accessories,100,81.85,8185.0,5278.58,2025-01-13,Pending
+1790,2025/02/03,Bauer Tech,Saxony,Cable Kit,Electronics,56,45.62,2554.72,1376.03,2025-02-09,Delivered
+1267,16-05-2025,Meyer Transport,Hessen,Widget Pro,Industrial,165,46.66,7698.9,5091.83,2025-05-17,Returned
+1121,19/02/2025,  HOFFMANN KG  ,Bavaria,Power Module,Components,-25,72.38,-1809.5,0.0,2025-02-22,Returned
+1030,24.03.2025,Hoffmann KG,Berlin,Power Module,Industrial,185,99.65,18435.25,8611.18,2025-03-28,Cancelled
+1220,19.01.2025,,Hessen,Gadget X,Accessories,19,46.64,886.16,331.49,2025-01-29,Delivered
+1310,04.03.2025,Bauer Tech,Saxony,Control Board,Electronics,164,120.01,19681.64,8892.46,,Pending
+1984,17.05.2025,Wagner Ltd,Baden-Württemberg,Cable Kit,Electronics,78,69.12,5391.36,2841.76,2025-05-18,Pending
+1430,Apr 08 2025,Wolf Components,Berlin,Cable Kit,Electronics,76,53.15,4039.4,2451.85,2025-04-13,Returned
+1976,02-05-2025,Braun Logistik,Hamburg,Gadget X,ELECTRONICS,45,127.63,5743.35,3601.74,2025-05-07,Delivered
+1098,Apr 19 2025,Braun Logistik,bavaria,Sensor Unit,Components,166,85.93,14264.38,9748.26,2025-04-20,Pending
+1599,12/01/2025,Fischer Corp,Saxony,Cable Kit,ACCESSORIES,59,95.69,5645.71,3767.98,2025-01-18,Returned
+1657,06.05.2025,Keller Handels,Baden-Württemberg,Sensor Unit,Components,159,23.46,3730.14,1575.55,2025-05-14,Cancelled
+1399,02-20-2025,Schäfer Elektro,Saxony,Gadget X,Accessories,37,89.34,3305.58,1916.62,2025-02-22,Cancelled
+1531,01.02.2025,Schmidt AG,Berlin,Power Module,Components,68,118.68,8070.24,5247.05,,Cancelled
+1508,06-20-2025,Schmidt AG,Hessen,Cable Kit,Accessories,14,109.32,1530.48,1067.74,2025-06-25,Cancelled
+1790,2025/02/03,Bauer Tech,Saxony,Cable Kit,Electronics,56,45.62,2554.72,1376.03,2025-02-09,Delivered
+1511,2025/05/16,Wolf Components,Berlin,Gadget X,INDUSTRIAL,69,110.74,7641.06,2322.75,2025-05-17,Delivered
+1845,2025-04-07,Schmidt AG,Baden-Württemberg,Widget Pro,Electronics,26,141.31,3674.06,1431.67,,Pending
+1484,20.02.2025,  RICHTER SYSTEMS  ,Berlin,Gadget X,Components,6,36.73,220.38,124.66,2025-02-24,Pending
+1729,Jun 01 2025,Wagner Ltd,Berlin,Power Module,Components,113,70.84,8004.92,4847.6,2025-06-05,Shipped
+1857,18.01.2025,Schneider Fabrik,Berlin,Sensor Unit,Components,175,27.15,4751.25,1536.25,2025-01-20,Cancelled
+1848,05-02-2025,Wolf Components,Hessen,Gadget X,Electronics,37,18.59,687.83,213.69,2025-05-10,Returned
+1989,2025/03/15,Meyer Transport,Hamburg,Control Board,Electronics,48,21.72,1042.56,682.03,2025-03-18,Delivered
+1436,2025-01-17,Keller Handels,Baden-Württemberg,Gadget X,Components,142,69.1,9812.2,6044.44,2025-01-20,Returned
+1755,17-04-2025,Braun Logistik,Hessen,Control Board,Accessories,99,18.08,1789.92,779.34,2025-04-19,Cancelled
+1843,Apr 21 2025,Richter Systems,SAXONY,Widget Pro,Electronics,150,128.99,19348.5,10248.17,2025-04-27,Delivered
+1986,01.06.2025,Schmidt AG,Saxony,Power Module,Accessories,7,31.74,222.18,89.71,2025-06-06,Shipped
+1052,01-01-2025,Schmidt AG,Bavaria,Gadget X,Industrial,52,55.96,2909.92,892.11,2025-01-05,Returned
+1628,Jan 10 2025,Richter Systems,Berlin,Widget Pro,Components,182,88.09,16032.38,7435.24,2025-01-15,Cancelled
+1174,2025-01-22,Hoffmann KG,NRW,Cable Kit,Electronics,167,110.87,18515.29,6388.56,2025-01-28,Returned
+1063,01-03-2025,Schneider Fabrik,Hessen,Power Module,Electronics,48,60.15,2887.2,1104.02,,Delivered
+1836,2025/04/12,Braun Logistik,Baden-Württemberg,Power Module,Components,96,6.06,581.76,301.97,2025-04-22,Delivered
+1776,Apr 20 2025,Richter Systems,Saxony,Gadget X,Industrial,158,99.38,15702.04,9935.34,2025-04-25,Returned
+1906,27.03.2025,  SCHÄFER ELEKTRO  ,Berlin,Power Module,Accessories,187,46.05,8611.35,4758.86,2025-04-01,Pending
+1422,14-01-2025,Wagner Ltd,Hamburg,Sensor Unit,Industrial,25,63.5,1587.5,1094.56,,Shipped
+1154,31/05/2025,Fischer Corp,Berlin,Widget Pro,Electronics,129,129.04,16646.16,11139.74,2025-06-07,Shipped
+1419,27/03/2025,Braun Logistik,Hamburg,Sensor Unit,Electronics,186,85.97,15990.42,7227.57,2025-03-30,Cancelled
+1206,Mar 25 2025,Schneider Fabrik,Hessen,Power Module,Accessories,-15,16.72,-250.8,0.0,2025-04-04,Pending
+1261,06-04-2025,Meyer Transport,Hamburg,Sensor Unit,Components,34,38.75,1317.5,587.03,2025-06-11,Cancelled
+1025,2025/03/19,Müller GmbH,Bavaria,Gadget X,ELECTRONICS,116,93.97,10900.52,3929.81,2025-03-24,Returned
+1114,2025-03-03,Bauer Tech,Hessen,Power Module,Components,106,112.04,11876.24,8271.06,2025-03-09,Returned
+1907,24-06-2025,Weber Industries,Berlin,Power Module,Accessories,8,92.09,736.72,513.46,2025-06-25,Cancelled
+1278,04-10-2025,Bauer Tech,Hessen,Cable Kit,Components,138,130.15,17960.7,12033.48,2025-04-13,Returned
+1503,01-31-2025,Koch Solutions,Saxony,Widget Pro,Electronics,5,44.55,222.75,110.66,2025-02-08,Cancelled
+1637,2025-04-19,  HOFFMANN KG  ,BERLIN,Control Board,Components,134,113.31,15183.54,5710.11,2025-04-24,Returned
+1435,2025/05/11,Fischer Corp,Saxony,Control Board,Electronics,133,49.48,6580.84,2428.75,2025-05-15,Pending
+1695,Jun 05 2025,Keller Handels,Hamburg,Power Module,Industrial,141,47.81,6741.21,2334.25,2025-06-14,Cancelled
+1913,2025/01/02,Meyer Transport,Hessen,Control Board,Electronics,113,51.39,5807.07,3943.24,2025-01-03,Pending
+1104,02-05-2025,Schneider Fabrik,Berlin,Power Module,Components,120,105.89,12706.8,6097.1,2025-05-11,Returned
+1693,14/02/2025,Schäfer Elektro,NRW,Power Module,Components,79,94.44,7460.76,3919.26,2025-02-21,Shipped
+1917,27/05/2025,Wolf Components,Hessen,Sensor Unit,Industrial,12,129.08,1548.96,1045.09,2025-05-29,Returned
+1233,2025-01-31,Braun Logistik,Hessen,Sensor Unit,Electronics,27,98.67,2664.09,1622.97,2025-02-04,Cancelled
+1830,2025-02-08,Braun Logistik,Saxony,Cable Kit,Industrial,110,12.25,1347.5,531.1,2025-02-13,Returned
+1370,Mar 12 2025,Fischer Corp,HAMBURG,Gadget X,Electronics,119,53.38,6352.22,3537.67,2025-03-20,Shipped
+1747,Jan 23 2025,Schmidt AG,Hamburg,Power Module,Electronics,74,143.95,10652.3,4564.08,2025-01-25,Delivered
+1889,25/06/2025,Wagner Ltd,Saxony,Cable Kit,Accessories,123,78.75,9686.25,6147.76,2025-06-28,Cancelled
+1026,20.04.2025,Schmidt AG,NRW,Widget Pro,Electronics,73,25.57,1866.61,845.0,2025-04-25,Shipped
+1692,11.01.2025,Keller Handels,Hamburg,Cable Kit,Industrial,75,32.36,2427.0,752.39,2025-01-18,Returned
+1157,May 29 2025,Müller GmbH,Bavaria,Cable Kit,Electronics,60,52.51,3150.6,2061.95,2025-06-05,Shipped
+1732,07.05.2025,Koch Solutions,Hessen,Power Module,Accessories,159,111.52,17731.68,9017.7,2025-05-12,Returned
+1090,28/06/2025,Meyer Transport,Hamburg,Widget Pro,Accessories,114,28.11,3204.54,2132.18,,Delivered
+1772,2025/06/07,Schneider Fabrik,NRW,Cable Kit,Components,152,133.2,20246.4,9294.58,2025-06-08,Cancelled
+1818,24.04.2025,Richter Systems,Hessen,Cable Kit,Components,161,77.49,12475.89,8157.75,,Shipped
+1482,2025/01/19,  BRAUN LOGISTIK  ,BERLIN,Gadget X,Accessories,17,39.94,678.98,422.32,2025-01-26,Cancelled
+1135,2025/04/17,Hoffmann KG,NRW,Sensor Unit,Electronics,157,142.67,22399.19,13248.85,2025-04-22,Cancelled
+1665,29/06/2025,  BRAUN LOGISTIK  ,Baden-Württemberg,Cable Kit,Components,145,65.61,9513.45,5992.8,2025-07-08,Delivered
+1735,Jun 17 2025,Braun Logistik,Hamburg,Control Board,Electronics,129,112.56,14520.24,7833.87,2025-06-26,Shipped
+1308,05-14-2025,Meyer Transport,Berlin,Sensor Unit,Components,102,119.36,12174.72,5382.48,2025-05-23,Pending
+1200,14-02-2025,Bauer Tech,Baden-Württemberg,Sensor Unit,Accessories,156,104.55,16309.8,10582.09,2025-02-24,Pending
+1718,18/06/2025,Weber Industries,Hessen,Sensor Unit,Electronics,147,103.07,15151.29,9409.84,2025-06-26,Cancelled
+1659,01-22-2025,Schmidt AG,Bavaria,Sensor Unit,Accessories,16,143.68,2298.88,798.0,2025-01-23,Pending
+1566,16/06/2025,Wagner Ltd,Hessen,Control Board,Industrial,171,16.23,2775.33,1859.88,2025-06-21,Delivered
+1720,25.03.2025,Braun Logistik,NRW,Gadget X,Industrial,112,58.24,6522.88,4205.86,,Shipped
+1126,2025-02-19,Müller GmbH,Baden-Württemberg,Widget Pro,Components,53,69.01,3657.53,1870.22,2025-02-28,Cancelled
+1287,09/06/2025,Richter Systems,NRW,Sensor Unit,Accessories,43,146.05,6280.15,2876.49,,Pending
+1650,2025-04-07,Keller Handels,Bavaria,Sensor Unit,Components,34,7.17,243.78,108.73,2025-04-10,Pending
+1951,2025/03/12,Weber Industries,Bavaria,Widget Pro,Accessories,29,104.51,3030.79,1777.06,2025-03-14,Returned
+1339,Feb 06 2025,Koch Solutions,bavaria,Widget Pro,Components,84,30.09,2527.56,1454.32,2025-02-15,Shipped
+1163,21.02.2025,Keller Handels,Berlin,Widget Pro,Electronics,62,77.67,4815.54,2486.14,2025-02-25,Returned
+1015,Jan 18 2025,Fischer Corp,Hessen,Widget Pro,Components,27,51.85,1399.95,902.94,2025-01-21,Returned
+1317,23/05/2025,Meyer Transport,Hessen,Sensor Unit,Industrial,141,49.91,7037.31,3529.57,2025-06-01,Pending
+1022,12/01/2025,Weber Industries,Berlin,Widget Pro,Electronics,98,76.39,7486.22,4870.95,2025-01-19,Pending
+1968,2025-06-29,Wolf Components,Hamburg,Sensor Unit,Accessories,32,17.88,572.16,304.87,2025-07-01,Shipped
+1055,06-22-2025,Schäfer Elektro,Berlin,Sensor Unit,INDUSTRIAL,11,16.28,179.08,84.72,2025-06-27,Cancelled
+1097,2025-02-08,Müller GmbH,Saxony,Cable Kit,Accessories,171,70.47,12050.37,7273.45,2025-02-11,Cancelled
+1739,2025/03/13,Wolf Components,Hessen,Gadget X,Electronics,131,119.43,15645.33,8140.88,2025-03-17,Shipped
+1777,01/01/2025,Wagner Ltd,BERLIN,Cable Kit,Components,171,129.91,22214.61,15416.73,2025-01-04,Delivered
+1644,24.04.2025,Keller Handels,Berlin,Power Module,Industrial,5,117.18,585.9,181.81,2025-05-03,Shipped
+1801,20/02/2025,Schmidt AG,Bavaria,Cable Kit,Electronics,31,17.79,551.49,376.29,2025-02-24,Returned
+1775,02.04.2025,Meyer Transport,NRW,Sensor Unit,ACCESSORIES,173,136.85,23675.05,7607.01,2025-04-09,Delivered
+1505,08-03-2025,,Bavaria,Gadget X,Industrial,46,61.29,2819.34,998.63,2025-03-09,Pending
+1891,13-05-2025,Wagner Ltd,Hessen,Sensor Unit,Accessories,75,23.31,1748.25,982.83,2025-05-22,Cancelled
+1340,26/05/2025,Keller Handels,NRW,Cable Kit,Components,199,44.26,8807.74,3805.48,2025-06-05,Delivered
+1352,05-23-2025,Schmidt AG,Saxony,Cable Kit,Industrial,16,100.03,1600.48,870.4,2025-05-24,Cancelled
+1500,20-05-2025,Schmidt AG,NRW,Control Board,Industrial,123,37.06,4558.38,2007.55,2025-05-26,Delivered
+1009,03-18-2025,Bauer Tech,Berlin,Power Module,Accessories,146,47.39,6918.94,3251.51,2025-03-27,Cancelled
+1667,27/04/2025,Wolf Components,Saxony,Control Board,Accessories,188,144.95,27250.6,18655.48,2025-05-03,Delivered
+1117,Mar 08 2025,Hoffmann KG,Hessen,Power Module,ACCESSORIES,175,126.14,22074.5,9491.47,,Pending
+1642,05-02-2025,Keller Handels,baden-württemberg,Gadget X,Components,168,99.51,16717.68,7536.82,2025-02-12,Pending
+1682,07-04-2025,Wolf Components,Berlin,Cable Kit,Accessories,130,141.67,18417.1,10009.76,2025-04-13,Pending
+1919,27.03.2025,,Hamburg,Sensor Unit,Electronics,121,29.53,3573.13,2105.86,,Pending
+1638,26.04.2025,Richter Systems,Saxony,Cable Kit,Electronics,45,60.55,2724.75,1610.47,2025-05-04,Returned
+1031,27.02.2025,Bauer Tech,Hessen,Gadget X,Components,9,74.03,666.27,349.04,2025-02-28,Cancelled
+1403,05-14-2025,Meyer Transport,Baden-Württemberg,Control Board,Industrial,34,115.36,3922.24,2297.2,2025-05-19,Shipped
+1549,03-14-2025,Weber Industries,Bavaria,Widget Pro,Industrial,68,145.15,9870.2,6552.42,2025-03-24,Delivered
+1394,2025/01/11,Wagner Ltd,Saxony,Cable Kit,Components,100,145.6,14560.0,9041.32,2025-01-12,Shipped
+1141,22-04-2025,Müller GmbH,Bavaria,Sensor Unit,Electronics,45,38.23,1720.35,1059.46,2025-05-02,Delivered
+1453,13.05.2025,Koch Solutions,Berlin,Sensor Unit,ACCESSORIES,47,44.23,2078.81,1420.68,2025-05-19,Returned
+1955,04-22-2025,Müller GmbH,Hamburg,Widget Pro,Electronics,59,130.99,7728.41,4621.5,,Returned
+1557,2025/05/07,Richter Systems,Hessen,Control Board,Components,181,125.21,22663.01,12188.08,2025-05-11,Pending
+1102,Jan 10 2025,Wagner Ltd,berlin,Cable Kit,Accessories,12,45.77,549.24,322.67,2025-01-18,Delivered
+1632,09.03.2025,Schäfer Elektro,Hessen,Gadget X,Accessories,80,75.07,6005.6,3923.9,2025-03-11,Returned
+1428,30-01-2025,Hoffmann KG,Berlin,Gadget X,Electronics,102,60.98,6219.96,2320.43,2025-02-03,Pending
+1926,2025-06-17,  SCHNEIDER FABRIK  ,Bavaria,Power Module,Accessories,112,29.44,3297.28,1889.4,2025-06-21,Delivered
+1483,2025/05/14,Fischer Corp,NRW,Sensor Unit,Accessories,145,63.08,9146.6,3501.12,2025-05-21,Cancelled
+1318,2025/03/28,Richter Systems,Berlin,Gadget X,ELECTRONICS,149,116.84,17409.16,7864.78,2025-04-03,Delivered
+1118,2025/03/04,Braun Logistik,NRW,Control Board,Electronics,76,72.95,5544.2,2973.11,2025-03-11,Pending
+1218,11/01/2025,Fischer Corp,Saxony,Gadget X,Accessories,35,40.2,1407.0,846.57,2025-01-13,Cancelled
+1187,06-11-2025,Richter Systems,Berlin,Power Module,Industrial,126,118.57,14939.82,5025.02,2025-06-20,Delivered
+1280,2025-05-03,Wagner Ltd,Bavaria,Power Module,Accessories,122,5.33,650.26,374.73,2025-05-07,Returned
+1382,27-02-2025,Müller GmbH,berlin,Gadget X,Electronics,95,45.72,4343.4,1498.44,2025-03-08,Delivered
+1901,04-07-2025,  WEBER INDUSTRIES  ,BADEN-WÜRTTEMBERG,Gadget X,Components,22,70.08,1541.76,732.84,,Shipped
+1687,Mar 13 2025,Schneider Fabrik,Hamburg,Widget Pro,Industrial,112,14.81,1658.72,999.7,2025-03-23,Pending
+1217,09-06-2025,Fischer Corp,Saxony,Control Board,Industrial,11,111.34,1224.74,843.28,2025-06-11,Pending
+1312,08-06-2025,Weber Industries,Hamburg,Gadget X,ACCESSORIES,194,115.42,22391.48,9943.52,,Returned
+1304,Mar 05 2025,Wolf Components,Hamburg,Power Module,INDUSTRIAL,124,146.19,18127.56,11113.91,2025-03-06,Pending
+1203,06/04/2025,Wagner Ltd,Hessen,Power Module,ACCESSORIES,81,33.9,2745.9,1123.57,2025-04-15,Delivered
+1045,2025-06-08,Weber Industries,Saxony,Gadget X,Electronics,41,148.48,6087.68,3092.73,2025-06-18,Shipped
+1812,2025/03/21,,Berlin,Power Module,Accessories,77,69.42,5345.34,1984.72,2025-03-24,Delivered
+1607,05-02-2025,  SCHMIDT AG  ,Bavaria,Sensor Unit,Accessories,14,103.82,1453.48,936.64,2025-02-10,Pending
+1148,08.01.2025,Fischer Corp,Hamburg,Sensor Unit,Components,75,43.79,3284.25,2116.14,2025-01-17,Shipped
+1424,05/06/2025,Keller Handels,Saxony,Widget Pro,Components,168,142.0,23856.0,7473.17,2025-06-09,Cancelled
+1881,2025-03-04,Fischer Corp,Saxony,Cable Kit,Industrial,89,148.29,13197.81,7957.41,,Cancelled
+1567,2025-03-31,Fischer Corp,Berlin,Cable Kit,Accessories,186,99.85,18572.1,10670.56,2025-04-01,Delivered
+1112,07/01/2025,Schmidt AG,HESSEN,Widget Pro,Accessories,92,75.16,6914.72,4174.46,,Pending
+1776,Apr 20 2025,Richter Systems,Saxony,Gadget X,Industrial,158,99.38,15702.04,9935.34,2025-04-25,Returned
+1716,04-22-2025,Hoffmann KG,Hessen,Control Board,Electronics,183,24.14,4417.62,2914.6,2025-04-24,Shipped
+1454,03-16-2025,Müller GmbH,NRW,Cable Kit,Electronics,23,128.29,2950.67,1484.35,2025-03-20,Cancelled
+1245,17.04.2025,Braun Logistik,Hamburg,Cable Kit,Components,102,85.16,8686.32,4820.8,2025-04-21,Shipped
+1147,15/05/2025,Wagner Ltd,Hessen,Widget Pro,COMPONENTS,65,56.67,3683.55,2243.13,2025-05-20,Pending
+1822,09/04/2025,Schäfer Elektro,Baden-Württemberg,Widget Pro,Industrial,56,34.15,1912.4,948.39,2025-04-19,Pending
+1804,Jun 20 2025,,NRW,Cable Kit,Components,195,43.09,8402.55,3655.24,2025-06-21,Returned
+1846,03-03-2025,Schneider Fabrik,Hamburg,Sensor Unit,INDUSTRIAL,139,99.62,13847.18,5292.62,2025-03-12,Returned
+1390,01-15-2025,Müller GmbH,Hamburg,Power Module,Electronics,35,101.52,3553.2,1387.71,2025-01-16,Pending
+1446,2025/01/04,Schäfer Elektro,NRW,Gadget X,Components,33,22.4,739.2,359.87,2025-01-08,Delivered
+1043,May 30 2025,Koch Solutions,NRW,Sensor Unit,COMPONENTS,66,75.02,4951.32,3414.96,2025-06-09,Cancelled
+1346,17/01/2025,Fischer Corp,nrw,Control Board,Industrial,77,110.67,8521.59,3030.78,2025-01-21,Cancelled
+1856,07.06.2025,  FISCHER CORP  ,Berlin,Widget Pro,Electronics,39,29.04,1132.56,622.77,2025-06-12,Delivered
+1445,05-23-2025,Schneider Fabrik,bavaria,Widget Pro,Electronics,165,94.62,15612.3,5374.02,2025-06-02,Returned
+1354,21/06/2025,Braun Logistik,NRW,Gadget X,Industrial,75,127.71,9578.25,5106.42,2025-06-27,Delivered
+1100,Jun 23 2025,Schmidt AG,Saxony,Control Board,Accessories,-61,130.36,-7951.96,0.0,2025-06-30,Returned
+1740,Jan 08 2025,Fischer Corp,Hamburg,Power Module,Components,-195,23.31,-4545.45,0.0,2025-01-10,Returned
+1672,15/01/2025,Koch Solutions,Berlin,Control Board,Components,25,145.94,3648.5,2440.06,2025-01-19,Returned
+1517,24/04/2025,Müller GmbH,NRW,Power Module,Accessories,193,63.28,12213.04,4783.59,2025-05-02,Cancelled
+1471,06-04-2025,Wagner Ltd,Hessen,Cable Kit,Accessories,105,149.73,15721.65,7992.04,2025-04-11,Pending
+1431,Mar 16 2025,Wolf Components,BAVARIA,Control Board,Accessories,169,45.97,7768.93,2423.78,2025-03-25,Delivered
+1676,13/05/2025,Braun Logistik,NRW,Widget Pro,Accessories,183,29.33,5367.39,2243.32,2025-05-20,Pending
+1168,2025-06-17,Meyer Transport,Bavaria,Gadget X,Accessories,191,6.35,1212.85,433.68,,Returned
+1748,18/03/2025,Koch Solutions,Baden-Württemberg,Gadget X,Components,175,17.28,3024.0,1591.99,2025-03-19,Cancelled
+1949,23-01-2025,Bauer Tech,Bavaria,Gadget X,Industrial,185,79.94,14788.9,7310.12,2025-02-01,Pending
+1623,18-05-2025,Schäfer Elektro,Baden-Württemberg,Power Module,Accessories,119,22.25,2647.75,1528.28,2025-05-20,Cancelled
+1794,27.03.2025,  BAUER TECH  ,Baden-Württemberg,Widget Pro,Components,70,109.7,7679.0,4114.05,2025-04-01,Shipped
+1194,06-10-2025,,Hamburg,Cable Kit,Electronics,171,83.52,14281.92,7153.13,2025-06-16,Pending
+1078,23.04.2025,Fischer Corp,bavaria,Cable Kit,Industrial,149,134.93,20104.57,7023.64,2025-05-01,Delivered
+1149,03-23-2025,Koch Solutions,Baden-Württemberg,Cable Kit,Accessories,80,88.93,7114.4,2148.6,2025-03-24,Shipped
+1648,20.04.2025,Wolf Components,Bavaria,Control Board,Components,148,40.5,5994.0,2713.14,2025-04-23,Cancelled
+1426,04.05.2025,Hoffmann KG,Baden-Württemberg,Power Module,Accessories,194,58.01,11253.94,7303.31,2025-05-06,Delivered
+1105,02-27-2025,Braun Logistik,Baden-Württemberg,Gadget X,INDUSTRIAL,89,79.9,7111.1,3438.72,2025-03-07,Shipped
+1841,06.05.2025,Meyer Transport,Hamburg,Sensor Unit,Accessories,168,110.14,18503.52,8452.89,2025-05-13,Cancelled
+1788,04-05-2025,Müller GmbH,NRW,Control Board,ACCESSORIES,63,34.74,2188.62,1279.61,2025-05-06,Pending
+1769,May 01 2025,Hoffmann KG,Hamburg,Gadget X,Electronics,-39,83.86,-3270.54,0.0,2025-05-08,Shipped
+1176,2025/01/13,Meyer Transport,NRW,Cable Kit,Industrial,170,70.06,11910.2,5441.19,2025-01-18,Pending
+1965,2025/04/02,Weber Industries,Hessen,Cable Kit,Components,130,130.51,16966.3,8765.86,,Delivered
+1298,14-04-2025,Richter Systems,Berlin,Widget Pro,Accessories,52,8.92,463.84,186.21,2025-04-17,Returned
+1899,23.03.2025,  SCHNEIDER FABRIK  ,Hamburg,Power Module,Accessories,150,98.0,14700.0,7097.14,2025-03-27,Delivered
+1950,24-03-2025,Schneider Fabrik,Berlin,Gadget X,Industrial,26,100.66,2617.16,1720.92,2025-03-26,Pending
+1144,2025-06-08,Müller GmbH,Berlin,Sensor Unit,Accessories,118,76.83,9065.94,5149.87,,Returned
+1749,02/02/2025,  BAUER TECH  ,Bavaria,Sensor Unit,Industrial,27,98.69,2664.63,842.23,2025-02-03,Shipped
+1945,2025-04-10,Bauer Tech,Baden-Württemberg,Control Board,Electronics,156,108.24,16885.44,7057.22,2025-04-13,Delivered
+1952,Jan 04 2025,Meyer Transport,Hessen,Cable Kit,ELECTRONICS,6,91.04,546.24,232.49,2025-01-05,Cancelled
+1562,28/02/2025,Keller Handels,NRW,Control Board,Accessories,11,62.73,690.03,409.65,,Pending
+1921,25-01-2025,Schäfer Elektro,Bavaria,Control Board,Electronics,69,84.3,5816.7,3090.16,,Delivered
+1365,2025/02/07,Wolf Components,Hamburg,Sensor Unit,Industrial,16,84.61,1353.76,604.93,2025-02-12,Cancelled
+1736,2025/02/01,Schneider Fabrik,NRW,Widget Pro,Components,140,113.57,15899.8,9320.76,2025-02-03,Shipped
+1588,12/05/2025,Schneider Fabrik,NRW,Gadget X,Components,96,24.4,2342.4,1459.55,2025-05-20,Cancelled
+1891,13-05-2025,Wagner Ltd,Hessen,Sensor Unit,Accessories,75,23.31,1748.25,982.83,2025-05-22,Cancelled
+1284,28.03.2025,Fischer Corp,Hessen,Gadget X,Industrial,136,124.12,16880.32,8584.17,,Shipped
+1677,04-01-2025,Meyer Transport,Baden-Württemberg,Cable Kit,Accessories,13,29.49,383.37,141.59,2025-01-05,Pending
+1059,Apr 13 2025,Braun Logistik,Bavaria,Control Board,ELECTRONICS,141,90.51,12761.91,4071.86,2025-04-14,Delivered
+1885,05-02-2025,Schneider Fabrik,Bavaria,Widget Pro,ELECTRONICS,19,148.54,2822.26,1653.68,2025-05-09,Returned
+1068,30.06.2025,Braun Logistik,Berlin,Control Board,Electronics,175,80.27,14047.25,9716.25,2025-07-09,Returned
+1324,01-05-2025,Fischer Corp,Hamburg,Cable Kit,Accessories,26,62.19,1616.94,1024.29,2025-05-04,Pending
+1113,15/05/2025,Schäfer Elektro,NRW,Cable Kit,Components,48,99.9,4795.2,3089.97,2025-05-21,Delivered
+1244,May 04 2025,Keller Handels,Saxony,Gadget X,Components,176,16.02,2819.52,1035.38,2025-05-05,Pending
+1651,19-02-2025,Wagner Ltd,Bavaria,Power Module,Industrial,104,104.0,10816.0,4368.74,,Shipped
+1221,27.01.2025,Schäfer Elektro,NRW,Power Module,Industrial,130,55.8,7254.0,3243.11,2025-02-02,Returned
+1367,18-04-2025,Schäfer Elektro,Saxony,Cable Kit,Electronics,135,11.65,1572.75,503.31,2025-04-25,Shipped
+1048,2025-04-05,Richter Systems,Hessen,Control Board,COMPONENTS,171,117.56,20102.76,13204.6,2025-04-13,Cancelled
+1422,14-01-2025,Wagner Ltd,Hamburg,Sensor Unit,Industrial,25,63.5,1587.5,1094.56,,Shipped
+1053,04-22-2025,Weber Industries,Saxony,Control Board,Accessories,44,122.19,5376.36,1841.35,2025-04-29,Cancelled
+1318,2025/03/28,Richter Systems,Berlin,Gadget X,ELECTRONICS,149,116.84,17409.16,7864.78,2025-04-03,Delivered
+1927,29/05/2025,Schmidt AG,Hessen,Cable Kit,Components,88,23.2,2041.6,794.65,2025-05-30,Returned
+1811,2025/02/18,Bauer Tech,NRW,Gadget X,Industrial,11,89.37,983.07,577.2,2025-02-20,Pending
+1306,04-05-2025,Bauer Tech,bavaria,Widget Pro,Components,126,139.8,17614.8,9970.1,2025-04-08,Pending
+1104,02-05-2025,Schneider Fabrik,Berlin,Power Module,Components,120,105.89,12706.8,6097.1,2025-05-11,Returned
+1155,08.06.2025,Hoffmann KG,Bavaria,Sensor Unit,Accessories,87,36.59,3183.33,1368.94,2025-06-13,Delivered
+1292,02/05/2025,Fischer Corp,Hamburg,Power Module,Electronics,64,15.81,1011.84,693.1,2025-05-04,Cancelled
+1073,2025-01-27,Schäfer Elektro,NRW,Sensor Unit,Accessories,123,15.15,1863.45,916.2,2025-01-30,Delivered
+1635,21-02-2025,Wagner Ltd,Saxony,Widget Pro,Components,106,97.71,10357.26,5877.0,2025-03-03,Cancelled
+1475,May 29 2025,Meyer Transport,Hamburg,Power Module,INDUSTRIAL,87,68.55,5963.85,2913.69,2025-06-01,Shipped
+1019,20.05.2025,Meyer Transport,Berlin,Power Module,Electronics,118,62.06,7323.08,4184.19,2025-05-22,Returned
+1421,2025/06/02,Meyer Transport,NRW,Cable Kit,Accessories,66,43.44,2867.04,1604.03,2025-06-09,Cancelled
+1643,06-01-2025,Schneider Fabrik,Berlin,Control Board,ELECTRONICS,96,139.57,13398.72,4118.28,2025-01-07,Shipped
+1182,12.02.2025,Richter Systems,Berlin,Sensor Unit,Accessories,46,30.49,1402.54,453.26,2025-02-16,Returned
+1937,15.06.2025,Koch Solutions,Baden-Württemberg,Sensor Unit,Industrial,58,47.72,2767.76,1269.72,2025-06-16,Shipped
+1294,06/02/2025,Schäfer Elektro,Saxony,Cable Kit,Electronics,84,133.2,11188.8,4228.3,2025-02-14,Returned
+1161,Feb 14 2025,,NRW,Widget Pro,Industrial,62,117.01,7254.62,4902.41,2025-02-17,Returned
+1128,2025/03/25,Richter Systems,NRW,Sensor Unit,Components,180,146.0,26280.0,11545.1,2025-03-29,Delivered
+1760,05/06/2025,Wagner Ltd,Hamburg,Sensor Unit,Components,-84,11.76,-987.84,0.0,2025-06-14,Delivered
+1357,2025-05-19,Meyer Transport,Hamburg,Control Board,Components,27,100.91,2724.57,1164.38,2025-05-28,Shipped
+1029,2025/06/03,Koch Solutions,Hamburg,Control Board,Industrial,115,94.32,10846.8,7314.64,2025-06-07,Delivered
+1698,Jun 14 2025,Schmidt AG,NRW,Sensor Unit,Industrial,35,121.12,4239.2,2047.14,2025-06-24,Pending
+1610,02-04-2025,Weber Industries,NRW,Widget Pro,Industrial,8,61.03,488.24,277.44,2025-04-03,Cancelled
+1613,Mar 29 2025,Koch Solutions,Saxony,Gadget X,Electronics,92,41.38,3806.96,1586.28,2025-04-03,Pending
+1828,Jan 21 2025,Schneider Fabrik,Hamburg,Sensor Unit,Industrial,138,25.93,3578.34,2432.16,2025-01-26,Shipped
+1081,2025-05-21,Müller GmbH,Saxony,Widget Pro,Electronics,10,94.53,945.3,586.06,2025-05-31,Delivered
+1808,10-04-2025,Fischer Corp,NRW,Cable Kit,Accessories,-65,58.57,-3807.05,0.0,2025-04-16,Shipped
+1821,2025/05/30,Weber Industries,Hessen,Cable Kit,Industrial,70,49.23,3446.1,1065.76,2025-06-04,Returned
+1853,25-03-2025,Keller Handels,Berlin,Gadget X,Components,78,135.46,10565.88,4111.62,2025-04-03,Pending
+1417,21-03-2025,Bauer Tech,Hamburg,Cable Kit,ACCESSORIES,16,118.63,1898.08,1202.79,2025-03-26,Pending
+1931,21.02.2025,Wagner Ltd,Saxony,Sensor Unit,Electronics,164,111.26,18246.64,12678.79,2025-02-25,Cancelled
+1332,01-13-2025,Bauer Tech,Baden-Württemberg,Cable Kit,Electronics,189,122.13,23082.57,10334.39,2025-01-22,Returned
+1467,2025/06/21,Meyer Transport,Hessen,Control Board,Industrial,117,86.27,10093.59,4761.95,2025-06-22,Shipped
+1787,Mar 14 2025,Meyer Transport,Bavaria,Control Board,Accessories,76,35.21,2675.96,1231.45,2025-03-22,Shipped
+1232,27-02-2025,Schneider Fabrik,Hamburg,Control Board,Components,74,89.22,6602.28,3258.29,2025-02-28,Shipped
+1506,24/01/2025,Wagner Ltd,NRW,Control Board,Industrial,43,105.17,4522.31,2862.77,2025-01-25,Delivered
+1578,01-08-2025,Meyer Transport,Hamburg,Cable Kit,Industrial,68,84.75,5763.0,3853.24,2025-01-12,Cancelled
+1402,27.06.2025,Schmidt AG,Hamburg,Control Board,Electronics,40,98.77,3950.8,2495.83,2025-07-06,Pending
+1093,02-26-2025,Richter Systems,Hessen,Cable Kit,Accessories,105,5.79,607.95,243.48,2025-03-05,Pending
+1546,2025-03-26,Müller GmbH,Hamburg,Cable Kit,Accessories,73,8.04,586.92,232.44,2025-04-05,Delivered
+1638,26.04.2025,Richter Systems,Saxony,Cable Kit,Electronics,45,60.55,2724.75,1610.47,2025-05-04,Returned
+1999,2025/05/03,Weber Industries,Baden-Württemberg,Gadget X,Accessories,197,97.82,19270.54,7591.32,2025-05-10,Pending
+1786,11.03.2025,Wagner Ltd,Baden-Württemberg,Widget Pro,Components,131,104.64,13707.84,7689.18,2025-03-15,Returned
+1497,30.03.2025,Keller Handels,Hamburg,Widget Pro,Industrial,42,71.65,3009.3,1805.39,2025-04-06,Delivered
+1526,30/04/2025,Bauer Tech,Hessen,Cable Kit,Accessories,-60,123.2,-7392.0,0.0,2025-05-09,Cancelled
+1448,23-02-2025,  FISCHER CORP  ,Saxony,Sensor Unit,Electronics,156,113.5,17706.0,6714.72,2025-03-02,Shipped
+1018,2025-02-25,Koch Solutions,Bavaria,Gadget X,Industrial,200,44.61,8922.0,3505.35,2025-03-03,Pending
+1647,2025-01-19,Wagner Ltd,NRW,Power Module,Electronics,48,6.33,303.84,147.92,2025-01-25,Delivered
+1438,2025-01-05,Braun Logistik,Bavaria,Widget Pro,Accessories,116,125.28,14532.48,8244.91,,Returned
+1854,2025/02/18,Bauer Tech,Hamburg,Widget Pro,Accessories,146,125.46,18317.16,9017.24,,Returned
+1922,2025/06/22,Müller GmbH,NRW,Power Module,Accessories,123,37.4,4600.2,2196.75,2025-06-28,Delivered
+1596,24-02-2025,Schmidt AG,BERLIN,Sensor Unit,Industrial,178,95.42,16984.76,8462.01,2025-03-02,Delivered
+1551,29-03-2025,Richter Systems,Hessen,Cable Kit,Electronics,21,44.09,925.89,423.15,2025-04-04,Shipped
+1414,2025/06/19,Bauer Tech,Berlin,Power Module,Accessories,197,132.81,26163.57,14497.86,2025-06-27,Returned
+1742,06.05.2025,Wagner Ltd,Hessen,Control Board,Accessories,37,115.52,4274.24,2000.91,2025-05-11,Shipped
+1550,2025/02/02,,Bavaria,Sensor Unit,Industrial,137,87.71,12016.27,6990.03,2025-02-06,Returned
+1977,27/06/2025,Wolf Components,BAVARIA,Power Module,COMPONENTS,134,31.1,4167.4,2819.07,2025-06-28,Returned
+1847,02-01-2025,Müller GmbH,Hessen,Widget Pro,ACCESSORIES,34,93.18,3168.12,1349.31,2025-02-10,Shipped
+1923,2025/05/27,Wolf Components,NRW,Cable Kit,Components,150,105.03,15754.5,7869.41,2025-05-30,Cancelled
+1454,03-16-2025,Müller GmbH,NRW,Cable Kit,Electronics,23,128.29,2950.67,1484.35,2025-03-20,Cancelled
+1844,2025/04/17,Fischer Corp,Baden-Württemberg,Gadget X,Accessories,66,52.3,3451.8,1960.54,2025-04-22,Shipped
+1964,2025/05/09,Schmidt AG,NRW,Cable Kit,Accessories,200,48.17,9634.0,5113.23,2025-05-13,Returned
+1582,06.06.2025,Schäfer Elektro,Saxony,Control Board,COMPONENTS,161,75.59,12169.99,6524.15,2025-06-13,Delivered
+1297,12.06.2025,Koch Solutions,Hessen,Gadget X,Electronics,182,18.46,3359.72,1056.7,2025-06-14,Delivered
+1152,18.01.2025,Braun Logistik,Saxony,Power Module,Accessories,101,120.52,12172.52,3978.07,2025-01-20,Returned
+1947,25/04/2025,Richter Systems,Berlin,Sensor Unit,Electronics,115,11.35,1305.25,440.07,2025-05-02,Shipped
+1953,2025/02/11,Koch Solutions,Hessen,Power Module,Industrial,-73,17.16,-1252.68,0.0,2025-02-18,Shipped
+1400,22/06/2025,Fischer Corp,Saxony,Power Module,Electronics,40,128.55,5142.0,2377.33,2025-07-01,Cancelled
+1209,Feb 17 2025,Schmidt AG,Hessen,Sensor Unit,Components,117,102.82,12029.94,7567.49,2025-02-27,Cancelled
+1164,Jun 07 2025,Fischer Corp,Hessen,Widget Pro,Electronics,197,85.03,16750.91,10935.85,2025-06-15,Shipped
+1633,02.05.2025,Richter Systems,Berlin,Widget Pro,Components,71,67.53,4794.63,2362.22,2025-05-08,Pending
+1960,03.01.2025,Müller GmbH,Bavaria,Sensor Unit,Accessories,68,71.17,4839.56,1945.22,2025-01-07,Delivered
+1383,13.04.2025,Richter Systems,HESSEN,Gadget X,Electronics,55,76.52,4208.6,1639.08,2025-04-20,Returned
+1072,06-01-2025,,NRW,Widget Pro,Accessories,161,97.93,15766.73,5537.41,2025-06-10,Pending
+1407,04/01/2025,Keller Handels,Hamburg,Sensor Unit,Components,173,118.66,20528.18,7565.87,2025-01-12,Pending
+1639,05.05.2025,Koch Solutions,Baden-Württemberg,Power Module,Electronics,111,48.4,5372.4,2536.04,2025-05-06,Delivered
+1288,27.06.2025,Bauer Tech,Berlin,Cable Kit,Accessories,157,34.63,5436.91,1938.0,2025-07-04,Delivered
+1916,Feb 19 2025,Bauer Tech,Baden-Württemberg,Widget Pro,Electronics,152,24.21,3679.92,1544.3,2025-02-21,Delivered
+1060,May 20 2025,Schneider Fabrik,Berlin,Gadget X,Accessories,56,99.81,5589.36,2317.67,2025-05-22,Shipped

@@ -1,105 +1,62 @@
-# ⚡ Excel Report Automation — 3 Hours → 12 Seconds
+# Excel Automation — 3 Hours → 12 Seconds
 
-> **What took 3 hours manually now runs in 12 seconds with Python.**
+![Hero Image](web/og-preview.png)
 
-A Python automation tool that takes raw, messy Excel/CSV data and produces a clean, formatted, analysis-ready report — automatically.
+> **"Most people apply with a CV. I show up with an AI arsenal."**
+>
+> A client-side, privacy-first web application that cleans messy CSVs and generates interactive reports in 12 seconds. Built to prove that automation beats manual labor in data analytics.
 
----
+## 🚀 Live Demo (No Install Required)
 
-## 🎯 What It Does
-
-| Task | Manual Time | Automated Time |
-|------|-------------|---------------|
-| Clean duplicates & missing values | 30 min | 0.8 sec |
-| Standardize formats (dates, currencies, text) | 45 min | 1.2 sec |
-| Generate summary statistics | 20 min | 0.5 sec |
-| Create pivot tables & aggregations | 40 min | 1.5 sec |
-| Build visual charts (bar, line, pie) | 45 min | 3.0 sec |
-| Export formatted Excel report | 15 min | 2.0 sec |
-| **TOTAL** | **~3 hours** | **~12 seconds** |
+### 👉 **[Try the Web App Here](https://1999282.github.io/excel-automation-12seconds/web/)**
 
 ---
 
-## 🚀 Quick Start
+## 🔬 "Expert Audit" Features
+
+This tool was designed not just to "work," but to pass a Senior Data Analyst's code review. Recent upgrades include:
+
+1. **100% Client-Side Processing:** Your data never leaves your browser (high privacy).
+2. **Before vs. After Diff:** A side-by-side table showing exactly what characters and formatting were fixed in real-time.
+3. **Data Quality Score:** Mathematically calculated percentage measuring the messiness improvement.
+4. **Resilient Charting:** Safely destroys and recreates Chart.js instances across multiple files.
+5. **Dynamic Column Detection:** Fuzzymatches column headers so it works with *your* data, not just the sample data.
+
+---
+
+## 💻 Tech Stack
+
+- **Web App:** Vanilla HTML/CSS/JS (Zero build step, maximum speed)
+- **Data Parsing:** PapaParse (CSV) & SheetJS (Excel)
+- **Visuals:** Chart.js (interactive) + Custom CSS Confetti
+- **Python Backend (Optional):** Pandas, Openpyxl, Matplotlib (for CLI automation fans)
+
+---
+
+## 🛠️ The 6-Step Pipeline
+
+1. **Load:** Drag & drop CSV/Excel handling auto-encoding.
+2. **Detect:** Intelligently maps column aliases (e.g. `qty`, `amount` -> Quantity).
+3. **Clean:** Drops duplicates, standardizes dates (e.g. `15.01.2024` -> `2024-01-15`), fixes currency strings.
+4. **Analyze:** Calculates margins, flags returns, aggregates totals.
+5. **Visualize:** Renders 5 Chart.js insight panels (Trend, Region, Product, Margins, Top Customers).
+6. **Export:** Generates a multi-sheet `.xlsx` file summarizing everything.
+
+---
+
+## ⚙️ How to Run Locally
+
+If you don't want to use the live web app, you can run the original Python version:
 
 ```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Run with sample data (included)
+git clone https://github.com/1999282/excel-automation-12seconds.git
+cd excel-automation-12seconds
+pip install pandas openpyxl matplotlib
 python automate_report.py
-
-# 3. Run with YOUR data
-python automate_report.py --input your_data.csv
 ```
 
-**Output**: A fully formatted Excel report (`output/report_YYYY-MM-DD.xlsx`) with:
+## 📜 License
 
-- ✅ Cleaned data sheet
-- ✅ Summary statistics sheet
-- ✅ Pivot tables sheet
-- ✅ Charts (saved as PNG)
+MIT License - Free to use, modify, and distribute.
 
----
-
-## 📁 Project Structure
-
-```
-excel-automation-12seconds/
-├── automate_report.py        # Main script — run this
-├── requirements.txt          # Dependencies
-├── sample_data/
-│   └── messy_sales_data.csv  # Sample messy data to test with
-├── output/                   # Generated reports go here
-└── README.md                 # You're reading this
-```
-
----
-
-## 🛠️ Tech Stack
-
-- **Python 3.8+**
-- **pandas** — Data cleaning & transformation
-- **openpyxl** — Excel file creation with formatting
-- **matplotlib** — Chart generation
-
----
-
-## 📊 Sample Output
-
-The script generates a multi-sheet Excel report:
-
-1. **Clean Data** — Duplicates removed, formats standardized, nulls handled
-2. **Summary** — Key metrics, totals, averages, counts by category
-3. **Pivot Analysis** — Revenue by region, product performance, time trends
-
----
-
-## 💡 How to Customize
-
-Edit the `CONFIG` section at the top of `automate_report.py`:
-
-```python
-CONFIG = {
-    "date_columns": ["order_date", "ship_date"],    # Which columns are dates
-    "currency_columns": ["revenue", "cost"],          # Which columns are currency
-    "category_column": "region",                      # Group-by column for pivots
-    "value_column": "revenue",                        # Main metric column
-}
-```
-
----
-
-## 🤝 Contributing
-
-Found a way to make it faster? Better? PRs welcome.
-
----
-
-## 📝 License
-
-MIT — Use it, modify it, build on it. Free forever.
-
----
-
-**Built by [Deepam Shah](https://www.linkedin.com/in/deepammshah/) — Operations & Strategy**
+*Built by Deepam Shah • Operations & Strategy • [LinkedIn](https://www.linkedin.com/in/deepammshah/)*

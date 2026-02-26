@@ -1,0 +1,6 @@
+order_id,order_date,customer_name,region,product,category,quantity,unit_price,revenue,cost,ship_date,status
+1001,2025-01-15,Alpha GmbH,NRW,Widget Pro,Electronics,10,100.00,1000.00,500.00,2025-01-18,Delivered
+1002,2025-01-16,Beta AG,Bavaria,Gadget X,Electronics,20,50.00,1000.00,400.00,2025-01-20,Delivered
+1003,2025-01-17,Gamma Corp,NRW,Widget Pro,Electronics,5,100.00,500.00,200.00,2025-01-21,Delivered
+1004,2025-01-18,Alpha GmbH,NRW,Sensor Unit,Industrial,10,25.00,250.00,100.00,2025-01-22,Delivered
+1005,2025-01-19,Delta Ltd,Hamburg,Cable Kit,Accessories,50,10.00,500.00,200.00,2025-01-23,Delivered

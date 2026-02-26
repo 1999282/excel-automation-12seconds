@@ -1,0 +1,2 @@
+order_id,order_date,customer_name,region,product,category,quantity,unit_price,revenue,cost,ship_date,status
+1001,2025-03-15,Test GmbH,NRW,Widget Pro,Electronics,10,49.99,499.90,250.00,2025-03-18,Delivered
