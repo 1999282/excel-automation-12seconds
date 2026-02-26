@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Automation — 3 Hours → 12 Seconds | Deepam Shah</title>
+    <meta name="description"
+        content="Upload messy CSV data and get instant cleaned reports with charts. Free, open-source, runs entirely in your browser.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+    <!-- Papa Parse for CSV -->
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+    <!-- SheetJS for Excel Export -->
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Noise overlay -->
+    <div class="noise"></div>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Open Source • Free Forever • No Backend</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">3 Hours of Excel Work</span>
+                <span class="title-accent">→ 12 Seconds.</span>
+            </h1>
+            <p class="hero-subtitle">
+                Drop your messy CSV. Get clean data, summary stats, and interactive charts — instantly.
+                Everything runs in your browser. No uploads. No servers. No sign-ups.
+            </p>
+            <div class="hero-actions">
+                <button class="btn btn-primary" onclick="scrollToUpload()">
+                    <span>Try It Now</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 5v14M5 12l7 7 7-7" />
+                    </svg>
+                </button>
+                <a href="https://github.com/1999282/excel-automation-12seconds" target="_blank" class="btn btn-ghost">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                    <span>View Source</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-number" id="stat-speed">0.9s</span>
+                <span class="stat-label">Avg Processing</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">24/24</span>
+                <span class="stat-label">Tests Passed</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Client-Side</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Upload Section -->
+    <section class="upload-section" id="upload-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Upload Your Data</h2>
+                <p>Drag & drop a CSV file or use our sample dataset to see the magic</p>
+            </div>
+
+            <div class="upload-zone" id="upload-zone">
+                <div class="upload-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="17 8 12 3 7 8" />
+                        <line x1="12" y1="3" x2="12" y2="15" />
+                    </svg>
+                </div>
+                <p class="upload-text">Drop your CSV file here</p>
+                <p class="upload-subtext">or click to browse • Max 10MB</p>
+                <input type="file" id="file-input" accept=".csv,.xlsx,.xls" hidden>
+            </div>
+
+            <div class="upload-options">
+                <button class="btn btn-secondary" onclick="loadSampleData()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                        <polyline points="14 2 14 8 20 8" />
+                    </svg>
+                    Try Sample Data
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Processing Animation -->
+    <section class="processing-section" id="processing-section" style="display:none;">
+        <div class="container">
+            <div class="processing-card">
+                <div class="processing-spinner"></div>
+                <h3 id="processing-step">Processing...</h3>
+                <div class="processing-steps">
+                    <div class="step" id="step-1"><span class="step-icon">⏳</span> Loading data</div>
+                    <div class="step" id="step-2"><span class="step-icon">⏳</span> Removing duplicates</div>
+                    <div class="step" id="step-3"><span class="step-icon">⏳</span> Fixing formats & cleaning</div>
+                    <div class="step" id="step-4"><span class="step-icon">⏳</span> Generating statistics</div>
+                    <div class="step" id="step-5"><span class="step-icon">⏳</span> Building charts</div>
+                    <div class="step" id="step-6"><span class="step-icon">⏳</span> Preparing report</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section" id="results-section" style="display:none;">
+        <div class="container">
+            <!-- Timer Banner -->
+            <div class="timer-banner">
+                <div class="timer-content">
+                    <span class="timer-label">Completed in</span>
+                    <span class="timer-value" id="timer-value">0.0s</span>
+                    <span class="timer-comparison">vs ~3 hours manually</span>
+                </div>
+            </div>
+
+            <!-- Summary Cards -->
+            <div class="summary-grid" id="summary-grid">
+                <!-- Filled by JS -->
+            </div>
+
+            <!-- Cleaning Report -->
+            <div class="report-card" id="cleaning-report">
+                <h3>🧹 Data Cleaning Report</h3>
+                <div class="report-grid" id="report-grid">
+                    <!-- Filled by JS -->
+                </div>
+            </div>
+
+            <!-- Charts -->
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <h3>Revenue by Region</h3>
+                    <canvas id="chart-region"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Revenue by Product</h3>
+                    <canvas id="chart-product"></canvas>
+                </div>
+                <div class="chart-card full-width">
+                    <h3>Daily Revenue Trend</h3>
+                    <canvas id="chart-trend"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Top 5 Customers</h3>
+                    <canvas id="chart-customers"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Profit Margins by Product</h3>
+                    <canvas id="chart-margins"></canvas>
+                </div>
+            </div>
+
+            <!-- Data Table Preview -->
+            <div class="table-card">
+                <div class="table-header">
+                    <h3>📊 Cleaned Data Preview</h3>
+                    <span class="table-count" id="table-count"></span>
+                </div>
+                <div class="table-wrapper">
+                    <table id="data-table">
+                        <thead id="table-head"></thead>
+                        <tbody id="table-body"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Export -->
+            <div class="export-section">
+                <button class="btn btn-primary btn-large" onclick="exportToExcel()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="7 10 12 15 17 10" />
+                        <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                    Download Excel Report
+                </button>
+                <button class="btn btn-ghost" onclick="resetApp()">
+                    Process Another File
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Built by <a href="https://www.linkedin.com/in/deepammshah/" target="_blank">Deepam Shah</a> • Operations
+                & Strategy</p>
+            <p class="footer-sub">Open Source • MIT License • <a
+                    href="https://github.com/1999282/excel-automation-12seconds" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
