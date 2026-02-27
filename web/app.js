@@ -177,196 +177,90 @@ function updateStep(stepNum) {
 }
 
 // Core Data Processing Pipeline
+// Core Data Processing Pipeline (Web Worker Integration)
 function processData() {
     try {
         updateStep(1); // Load
 
-        let report = {
-            initialRows: rawData.length,
-            duplicatesRemoved: 0,
-            missingValuesFilled: 0,
-            datesStandardized: 0,
-            textStandardized: 0,
-            currenciesFixed: 0,
-            returnsFlagged: 0
-        };
+        // Show progress bar container for step 3
+        const progressContainer = document.getElementById('progress-container');
+        const progressBarFill = document.getElementById('progress-bar-fill');
+        const progressText = document.getElementById('progress-text');
 
-        // 1. Detect Columns (Expert Auto-Detection)
-        updateStep(2);
-        const sampleKeys = Object.keys(rawData[0] || {}).map(k => k.toLowerCase().trim());
-        const cols = {
-            id: findCol(sampleKeys, ['id', 'order', 'no']),
-            date: findCol(sampleKeys, ['date', 'time', 'data']),
-            customer: findCol(sampleKeys, ['customer', 'client', 'name', 'company', 'buyer']),
-            category: findCol(sampleKeys, ['category', 'type', 'group', 'department']),
-            product: findCol(sampleKeys, ['product', 'item', 'desc']),
-            quantity: findCol(sampleKeys, ['qty', 'quantity', 'amount']),
-            revenue: findCol(sampleKeys, ['revenue', 'sales', 'total', 'price', 'value']),
-            region: findCol(sampleKeys, ['region', 'area', 'territory', 'location', 'country'])
-        };
-
-        // Fallbacks
-        if (!cols.revenue) {
-            showError("Could not detect a numeric column (Revenue/Sales/Total). Tools requires this to analyze.");
-            return;
+        if (progressContainer) {
+            progressContainer.style.display = 'block';
+            progressBarFill.style.width = '0%';
+            progressText.innerText = '0%';
         }
 
-        globalCols = cols;
-        let data = [...rawData];
+        if (window.Worker) {
+            const worker = new Worker('worker.js');
 
-        // 2. Remove Duplicates
-        const uniqueSet = new Set();
-        const uniqueData = [];
-        data.forEach(row => {
-            const hash = Object.values(row).join('|');
-            if (!uniqueSet.has(hash)) {
-                uniqueSet.add(hash);
-                uniqueData.push(row);
-            } else {
-                report.duplicatesRemoved++;
-            }
-        });
-        data = uniqueData;
+            worker.onmessage = function (e) {
+                const msg = e.data;
 
-        // 3. Clean Data Points
-        updateStep(3);
-        data = data.map(row => {
-            let cleanRow = { ...row };
+                if (msg.type === 'progress') {
+                    updateStep(msg.step);
+                    if (progressContainer) {
+                        if (msg.step === 3) {
+                            progressContainer.style.display = 'block';
+                        } else if (msg.step > 3) {
+                            progressContainer.style.display = 'none';
+                        }
+                    }
+                } else if (msg.type === 'progressUpdate') {
+                    if (progressContainer) {
+                        progressBarFill.style.width = msg.percent + '%';
+                        progressText.innerText = msg.percent + '%';
+                    }
+                } else if (msg.type === 'error') {
+                    showError("Worker Error: " + msg.message);
+                    worker.terminate();
+                } else if (msg.type === 'complete') {
+                    updateStep(6);
 
-            // Clean Customer Names (German fixes)
-            if (cols.customer && cleanRow[cols.customer]) {
-                let name = String(cleanRow[cols.customer]).trim();
-                let lower = name.toLowerCase();
-                if (lower.includes('gmbh') || lower.includes('kg') || lower.includes('ag')) {
-                    name = name.replace(/gmbh/i, 'GmbH')
-                        .replace(/kg/i, 'KG')
-                        .replace(/ag/i, 'AG');
-                    report.textStandardized++;
+                    // Receive processed data
+                    globalCols = msg.cols;
+                    cleanedData = msg.data;
+                    const report = msg.report;
+                    const stats = msg.stats;
+                    const agg = msg.aggregations;
+
+                    setTimeout(() => {
+                        const timeTaken = ((performance.now() - startTime) / 1000).toFixed(1);
+                        document.getElementById('timer-value').innerText = timeTaken + 's';
+
+                        renderDiff(rawData, cleanedData, globalCols);
+                        renderStats(stats);
+                        renderReport(report);
+                        renderQualityScore(report.qualityScore, report.totalIssues);
+
+                        buildCharts(agg.byRegion, agg.byProduct, agg.byDate, agg.topCustomers, agg.marginsByCat);
+
+                        renderTable(cleanedData, globalCols);
+
+                        sections.processing.style.display = 'none';
+                        sections.results.style.display = 'block';
+                        sections.results.scrollIntoView({ behavior: 'smooth' });
+
+                        triggerConfetti();
+                    }, 300);
+
+                    worker.terminate();
                 }
-                if (name !== String(row[cols.customer])) report.textStandardized++;
-                cleanRow[cols.customer] = name.charAt(0).toUpperCase() + name.slice(1);
-            }
+            };
 
-            // Fill Missing Categories
-            if (cols.category) {
-                if (!cleanRow[cols.category] || String(cleanRow[cols.category]).trim() === "") {
-                    cleanRow[cols.category] = 'Uncategorized';
-                    report.missingValuesFilled++;
-                }
-            }
+            worker.onerror = function (error) {
+                showError("Fatal Worker Error: " + error.message);
+                worker.terminate();
+            };
 
-            // Format Dates to YYYY-MM-DD (Robust handling for EU/US formats)
-            if (cols.date && cleanRow[cols.date]) {
-                let dStr = String(cleanRow[cols.date]).trim();
-                let parsedDate = parseMessyDate(dStr);
-                if (parsedDate) {
-                    cleanRow[cols.date] = parsedDate;
-                    if (dStr !== parsedDate) report.datesStandardized++;
-                }
-            }
+            // Start worker
+            worker.postMessage({ rawData: rawData });
 
-            // Clean Currencies/Numbers (Robust handling for EU/US formats e.g., 1.234,56 €)
-            if (cols.revenue && cleanRow[cols.revenue]) {
-                let val = String(cleanRow[cols.revenue]);
-                let num = parseMessyNumber(val);
-                if (!isNaN(num)) {
-                    cleanRow[cols.revenue] = num;
-                    if (String(num) !== val.trim()) report.currenciesFixed++;
-                } else {
-                    cleanRow[cols.revenue] = 0;
-                }
-            }
-
-            if (cols.quantity && cleanRow[cols.quantity]) {
-                let qty = parseInt(String(cleanRow[cols.quantity]).trim(), 10) || 0;
-                cleanRow[cols.quantity] = qty;
-
-                // Flag Returns
-                if (qty < 0 || (cols.revenue && cleanRow[cols.revenue] < 0)) {
-                    cleanRow['Is_Return'] = 'Yes';
-                    cleanRow[cols.revenue] = Math.abs(cleanRow[cols.revenue] || 0) * -1; // Ensure negative revenue
-                    report.returnsFlagged++;
-                } else {
-                    cleanRow['Is_Return'] = 'No';
-                }
-            }
-
-            // Calculate Profit & Margin (Assumes 30% baseline cost for demo if no cost col)
-            if (cols.revenue) {
-                let rev = cleanRow[cols.revenue] || 0;
-                let profit = rev * 0.45; // Simulated 45% margin
-                cleanRow['Est_Profit'] = parseFloat(profit.toFixed(2));
-                cleanRow['Profit_Margin_%'] = 45.0;
-            }
-
-            return cleanRow;
-        });
-
-        cleanedData = data;
-
-        // Calculate Data Quality Score (Expert Feature)
-        let totalIssues = report.duplicatesRemoved + report.missingValuesFilled + report.datesStandardized + report.textStandardized + report.currenciesFixed;
-        let score = Math.max(15, 100 - ((totalIssues / Math.max(1, report.initialRows)) * 30));
-        if (score > 99) score = 99; // Cap at 99 so the animation is visible
-        if (totalIssues === 0) score = 100;
-        report.qualityScore = Math.round(score);
-
-        // Calculate Stats
-        updateStep(4);
-        let stats = {
-            totalRevenue: data.reduce((sum, r) => sum + (Number(r[cols.revenue]) || 0), 0),
-            totalProfit: data.reduce((sum, r) => sum + (Number(r['Est_Profit']) || 0), 0),
-            totalItems: data.reduce((sum, r) => sum + Math.max(0, Number(r[cols.quantity]) || 0), 0),
-            returnsCount: report.returnsFlagged,
-            finalRows: data.length
-        };
-
-        // Aggregations
-        updateStep(5);
-        let byRegion = aggregate(data, cols.region, cols.revenue);
-        let byProduct = aggregate(data, cols.category || cols.product, cols.revenue);
-        let byDate = aggregate(data, cols.date, cols.revenue);
-        // Sort dates chronologically
-        byDate = Object.fromEntries(Object.entries(byDate).sort());
-
-        // Top 5 Customers
-        let byCustomer = aggregate(data, cols.customer, cols.revenue);
-        let topCustomersObj = Object.entries(byCustomer).sort((a, b) => b[1] - a[1]).slice(0, 5);
-        let topCustomers = Object.fromEntries(topCustomersObj);
-
-        // Profit Margins by Category
-        let marginsByCat = {};
-        if (cols.category) {
-            let catRev = aggregate(data, cols.category, cols.revenue);
-            let catProf = aggregate(data, cols.category, 'Est_Profit');
-            for (let c in catRev) {
-                marginsByCat[c] = catRev[c] ? (catProf[c] / catRev[c]) * 100 : 0;
-            }
+        } else {
+            showError("Your browser doesn't support Web Workers. Please upgrade.");
         }
-
-        // Render UI
-        updateStep(6);
-        setTimeout(() => {
-            const timeTaken = ((performance.now() - startTime) / 1000).toFixed(1);
-            document.getElementById('timer-value').innerText = timeTaken + 's';
-
-            renderDiff(rawData, cleanedData, cols);
-            renderStats(stats);
-            renderReport(report);
-            renderQualityScore(report.qualityScore, totalIssues);
-
-            // Build charts with auto-cleanup of previous canvases to prevent crashes
-            buildCharts(byRegion, byProduct, byDate, topCustomers, marginsByCat);
-
-            renderTable(data, cols);
-
-            sections.processing.style.display = 'none';
-            sections.results.style.display = 'block';
-            sections.results.scrollIntoView({ behavior: 'smooth' });
-
-            triggerConfetti();
-        }, 300);
-
     } catch (e) {
         console.error(e);
         showError("An error occurred during processing: " + e.message);
