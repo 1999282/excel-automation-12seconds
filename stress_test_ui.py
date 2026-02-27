@@ -11,7 +11,7 @@ def run(playwright):
 
     print("Navigating to production server...")
     try:
-        page.goto("https://1999282.github.io/excel-automation-12seconds/web/", timeout=20000)
+        page.goto("http://localhost:8000/web/", timeout=20000)
     except Exception as e:
         print(f"Failed to connect to production server: {e}")
         sys.exit(1)
