@@ -20,16 +20,17 @@ self.onmessage = function (e) {
     self.postMessage({ type: 'progress', step: 2 }); // Detecting Columns...
 
     // 1. Detect Columns
-    const sampleKeys = Object.keys(rawData[0] || {}).map(k => String(k).toLowerCase().trim());
+    const sampleRow = rawData[0] || {};
+    const sampleKeys = Object.keys(sampleRow).map(k => String(k).toLowerCase().trim());
     const cols = {
-        id: findCol(sampleKeys, ['id', 'order', 'no']),
-        date: findCol(sampleKeys, ['date', 'time', 'data']),
-        customer: findCol(sampleKeys, ['customer', 'client', 'name', 'company', 'buyer']),
-        category: findCol(sampleKeys, ['category', 'type', 'group', 'department']),
-        product: findCol(sampleKeys, ['product', 'item', 'desc']),
-        quantity: findCol(sampleKeys, ['qty', 'quantity', 'amount']),
-        revenue: findCol(sampleKeys, ['revenue', 'sales', 'total', 'price', 'value']),
-        region: findCol(sampleKeys, ['region', 'area', 'territory', 'location', 'country'])
+        id: findCol(sampleKeys, ['id', 'order', 'no'], sampleRow),
+        date: findCol(sampleKeys, ['date', 'time', 'data'], sampleRow),
+        customer: findCol(sampleKeys, ['customer', 'client', 'name', 'company', 'buyer'], sampleRow),
+        category: findCol(sampleKeys, ['category', 'type', 'group', 'department'], sampleRow),
+        product: findCol(sampleKeys, ['product', 'item', 'desc'], sampleRow),
+        quantity: findCol(sampleKeys, ['qty', 'quantity', 'amount'], sampleRow),
+        revenue: findCol(sampleKeys, ['revenue', 'sales', 'total', 'price', 'value'], sampleRow),
+        region: findCol(sampleKeys, ['region', 'area', 'territory', 'location', 'country'], sampleRow)
     };
 
     if (!cols.revenue) {
@@ -199,22 +200,15 @@ self.onmessage = function (e) {
 
 // --- Utility Functions (Duplicated from app.js for isolated worker thread) ---
 
-function findCol(keys, keywords) {
+function findCol(keys, keywords, sampleRow) {
     for (let kw of keywords) {
         let match = keys.find(k => k.includes(kw));
         if (match) {
-            return Object.keys(rawData[0] || {}).find(orig => String(orig).toLowerCase().trim() === match);
+            return Object.keys(sampleRow || {}).find(orig => String(orig).toLowerCase().trim() === match);
         }
     }
     return null;
 }
-
-let rawData = []; // Hack to keep findCol working easily, we'll just set it
-self.addEventListener('message', function (e) {
-    if (e.data && e.data.rawData) {
-        rawData = e.data.rawData;
-    }
-});
 
 function parseMessyDate(str) {
     if (!str) return null;
